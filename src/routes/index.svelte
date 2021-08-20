@@ -1,14 +1,16 @@
 <script lang="ts">
 	import Markup from '@feltcoop/felt/ui/Markup.svelte';
 
-	import Mreows from '$lib/ui/Mreows.svelte';
+	const quote = {
+		author: 'David Wheeler',
+		quote:
+			'All problems in computer science can be solved by another level of abstraction, except of course for the problem of too many abstractions.',
+	};
 </script>
 
 <main class="column">
-	<Markup>
-		<h1>felt-template</h1>
-		<Mreows />
-	</Markup>
+	<h1>{quote.author}</h1>
+	<div>{quote.quote}</div>
 </main>
 
 <style>

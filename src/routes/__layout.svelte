@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>felt-template</title>
+	<title>12M0D12 - The works of Hamilton Reed</title>
 	<link rel="icon" href="favicon.png" />
 </svelte:head>
 
