@@ -21,7 +21,7 @@ export const quotes = [
 	},
 	{
 		author: 'Motto of the British SAS',
-		text: 'Who dares, wins.',
+		text: 'Who dares, wins',
 	},
 	{
 		author: 'Andrew S. Tanenbaum',
@@ -42,5 +42,25 @@ export const quotes = [
 	{
 		author: 'Ralph Waldo Emerson',
 		text: 'There is no knowledge which is not power',
+	},
+	{
+		author: 'Native American proverb',
+		text: 'We do not inherit the earth from our ancestors, we borrow it from our children',
+	},
+	{
+		author: 'Thomas J. Watson',
+		text: 'Recently, I was asked if I was going to fire an employee who made a mistake that cost the company $600,000. No, I replied, we just spent $600,000 training them. Why would I want somebody else to hire their experience?',
+	},
+	{
+		author: 'anonymous',
+		text: 'Intelligence is knowing a tomato is a fruit; Wisdom is knowing not to put it in a fruit salad',
+	},
+	{
+		author: 'Utah Phillips',
+		text: 'The earth is not dying, it is being killed, and those who are killing it have names and addresses',
+	},
+	{
+		author: 'Phil Karlton',
+		text: 'There are only two hard things in Computer Science: cache invalidation and naming things',
 	},
 ];

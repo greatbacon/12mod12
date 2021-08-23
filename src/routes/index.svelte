@@ -3,19 +3,19 @@
 	import {quotes} from '$lib/data/quotes';
 	import {fade, blur, fly, slide, scale} from 'svelte/transition';
 	import {quintOut} from 'svelte/easing';
+	import {random_int} from '@feltcoop/felt/util/random.js';
 
-	let index = 0;
+	let index = random_int(0, quotes.length);
 
 	setInterval(() => {
-		index = (index + 1) % 11;
-	}, 1000);
+		index = (index + 1) % quotes.length;
+	}, 5000);
 </script>
 
 <main class="content">
-	{index}
 	{#each quotes as quote, i}
 		{#if index === i}
-			<div transition:scale={{delay: 250, duration: 30, easing: quintOut}}>
+			<div in:fade={{delay: 350, duration: 300}} out:fade={{duration: 300}}>
 				<div class="display_quote_text">{quote.text}</div>
 				<div class="display_quote_author">{quote.author}</div>
 			</div>
@@ -24,17 +24,8 @@
 </main>
 
 <style>
-	main {
-		text-align: center;
-		/* TODO should these be on `.column` ? */
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
 	.display_quote_text {
 		text-align: center;
-		margin-top: 10%;
 		font-size: 2.5em;
 	}
 
