@@ -1,12 +1,12 @@
 <script lang="ts">
-	import '@feltcoop/felt/ui/style.css';
-
 	import '$lib/ui/style.css';
+	import Header from '$lib/ui/Header.svelte';
 </script>
 
 <svelte:head>
-	<title>felt-template</title>
+	<title>12M0D12 - The works of Hamilton Reed</title>
 	<link rel="icon" href="favicon.png" />
 </svelte:head>
 
+<Header />
 <slot />

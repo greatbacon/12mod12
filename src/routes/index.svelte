@@ -1,22 +1,36 @@
 <script lang="ts">
 	import Markup from '@feltcoop/felt/ui/Markup.svelte';
+	import {quotes} from '$lib/data/quotes';
+	import {fade, blur, fly, slide, scale} from 'svelte/transition';
+	import {quintOut} from 'svelte/easing';
+	import {random_int} from '@feltcoop/felt/util/random.js';
 
-	import Mreows from '$lib/ui/Mreows.svelte';
+	let index = random_int(0, quotes.length);
+
+	setInterval(() => {
+		index = (index + 1) % quotes.length;
+	}, 5000);
 </script>
 
-<main class="column">
-	<Markup>
-		<h1>felt-template</h1>
-		<Mreows />
-	</Markup>
+<main class="content">
+	{#each quotes as quote, i}
+		{#if index === i}
+			<div in:fade={{delay: 350, duration: 300}} out:fade={{duration: 300}}>
+				<div class="display_quote_text">{quote.text}</div>
+				<div class="display_quote_author">{quote.author}</div>
+			</div>
+		{/if}
+	{/each}
 </main>
 
 <style>
-	main {
+	.display_quote_text {
 		text-align: center;
-		/* TODO should these be on `.column` ? */
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		font-size: 2.5em;
+	}
+
+	.display_quote_author {
+		text-align: center;
+		font-size: 1.5em;
 	}
 </style>
