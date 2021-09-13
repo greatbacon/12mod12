@@ -63,4 +63,12 @@ export const quotes = [
 		author: 'Phil Karlton',
 		text: 'There are only two hard things in Computer Science: cache invalidation and naming things',
 	},
+	{
+		author: 'Buckminster Fuller',
+		text: 'You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.',
+	},
+	{
+		author: 'Grace Hopper',
+		text: "You don't manage people; you manage things. You lead people.",
+	},
 ];
