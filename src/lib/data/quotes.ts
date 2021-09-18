@@ -71,4 +71,64 @@ export const quotes = [
 		author: 'Grace Hopper',
 		text: "You don't manage people; you manage things. You lead people.",
 	},
+	{
+		author: 'Hypatia of Alexandria',
+		text: 'Reserve your right to think, for even to think wrongly is better than not to think at all.',
+	},
+	{
+		author: 'Vera Rubin',
+		text: 'Still more mysteries of the universe remain hidden. Their discovery awaits the adventurous scientists of the future. I like it this way.',		
+	},
+	{
+		author: 'Dorothy Hodgkin',
+		text: 'I was captured for life by chemistry and by crystals.'
+	},
+  {
+		author: 'Chien-Shiung Wu',
+		text: 'The main stumbling block in the way of any progress is and always has been unimpeachable tradition.',
+	},
+	{
+		author: 'Mamie Phipps Clark',
+		text: "I began to think that a crucial part of children's lives, no matter what happens, has to be a degree of security and acceptance."		
+	},
+	{
+		author: 'Alice Ball',
+		text: "I work and I work and still it seems that I have done nothing.",
+	},
+	{
+		author: 'Barbara McClintock',
+		text: "When you have that joy, you do the right experiments. You let the material tell you where to go, and it tells you at every step what the next has to be...",
+	},
+	{
+		author: 'Gerty Cori',
+		text: "As a researcher the unforgotten moments of my life are rare ones...When the veil over nature's secrets seems to suddenly lift."
+	},
+	{
+		author: 'Rita Levi-Montalcini',
+		text: "Above all, don't fear difficult moments. The best comes from them."
+	},
+	{
+		author: 'Lise Meitner',
+		text: "Life need not be easy, provided only it was not empty."
+	},
+	{
+		author: 'Sau Lan Wu',
+		text: "Live with integrity and let your conscience be your guide. Be a pioneer and follow your heart, contributing to future humankind.",
+	},
+	{
+		author: 'Patricia Bath',
+		text: "Believe in the power of truth. Do not allow your mind to be imprisoned by majority thinking.",		
+	},
+	{
+		author: 'Cecilia Payne-Gaposchkin',
+		text: "There is no joy more intense than that of coming upon a fact that cannot be understood in terms of currently accepted ideas.",
+	},
+	{
+		author: 'Karen Horney',
+		text: "Fortunately analysis is not the only way to resolve inner conflicts. Life itself still remains a very effective therapist.",
+	},
+	{
+		author: 'Elizabeth Blackwell',
+		text: "If the present arrangements of society will not admit of woman's free development, then society must be remodelled.",
+	},	
 ];
