@@ -6,8 +6,7 @@ export default {
 	preprocess: typescript(),
 	kit: {
 		adapter: static_adapter(),
-		target: '#root',
-		paths: {base: '/felt-template'}, // for GitHub pages -- delete this line for top-level domains
+		target: '#root',		
 		files: {assets: 'src/static'},
 		vite: {
 			ssr: {

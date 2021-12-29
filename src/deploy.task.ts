@@ -7,10 +7,10 @@ let destination = '<add address here>';
 
 export const task: Task = {
 	summary: 'deploy application to prod',
-	dev: false,
-	run: async ({invoke_task}) => {
-		await invoke_task('clean');
-		await invoke_task('build');
+	production: true,
+	run: async ({invokeTask}) => {
+		await invokeTask('clean');
+		await invokeTask('build');
 		let timestamp = Date.now();
 		let artifact_name = `${applicationName}_${timestamp}`;
 		console.log(`Working with artifact: ${artifact_name}`);

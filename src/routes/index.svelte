@@ -1,11 +1,10 @@
 <script lang="ts">
-	import Markup from '@feltcoop/felt/ui/Markup.svelte';
 	import {quotes} from '$lib/data/quotes';
-	import {fade, blur, fly, slide, scale} from 'svelte/transition';
+	import {fade,blur,fly,slide,scale} from 'svelte/transition';
 	import {quintOut} from 'svelte/easing';
-	import {random_int} from '@feltcoop/felt/util/random.js';
+	import {randomInt} from '@feltcoop/felt/util/random.js';
 
-	let index = random_int(0, quotes.length);
+	let index = randomInt(0, quotes.length);
 
 	setInterval(() => {
 		index = (index + 1) % quotes.length;
