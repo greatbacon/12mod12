@@ -32,7 +32,7 @@ export const code = [
     content: "CABAL is a turn based game that simulates various scenarios of factions vying with each other for power. The power of a faction is measured by its wealth, its influence on the world, and the public's opinion of it. The underlying nature of CABAL allows for an almost limitless number of scenarios of competition to be devised. The only limit is the imagination of its user base. From the conflict of the French Revolution to modern political campaigns to galactic conquest in the far flung future, CABAL is open ended enough to allow for all these scenarios and more. Play a hot seat game with your friends or take it online for even more cut throat competion.",
     start: '2012-08-01',
     wrapped: '2012-12-15',
-    thumbnail: 'portfolio/img/CABALlogo.jpg',
+    thumbnail: '/portfolio/img/CABALlogo.jpg',
     link: 'https://github.com/greatbacon/CABAL'
   },  
 ];

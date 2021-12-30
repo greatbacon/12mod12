@@ -3,10 +3,11 @@ import {spawn} from '@feltcoop/felt/util/process.js';
 import {DIST_DIRNAME} from '@feltcoop/gro/dist/paths.js';
 
 let applicationName = '12M0D12';
-let destination = '<add address here>';
+let user = <user>
+let destination = <destination>;
 
 export const task: Task = {
-	summary: 'deploy application to prod',
+	summary: 'deploy static website to prod',
 	production: true,
 	run: async ({invokeTask}) => {
 		await invokeTask('clean');
@@ -17,28 +18,19 @@ export const task: Task = {
 		await spawn('tar', [
 			'-cvf',
 			`${artifact_name}.tar`,
-			DIST_DIRNAME,
-			'package.json',
-			'package-lock.json',
+			`-C${DIST_DIRNAME}/svelte-kit`,			
+			`.`,
 		]);
-		//scp to server
-		//your ssh key will need to be added to linode account
-		//TODO extract IP to env var
-		//TODO create server account for running system
-		await spawn('scp', [`${artifact_name}.tar`, `${destination}:${artifact_name}.tar`]);
+		console.log(`Preparing to copy: ${artifact_name}`);
+		await spawn('scp', [`-o User=${user}`,`${artifact_name}.tar`, `${destination}:mainwebsite_html/${artifact_name}.tar`]);
 		//unpack & start server
-		await spawn('ssh', [
-			`${destination}`,
-			`mkdir deploy_${artifact_name};
-			mv ${artifact_name}.tar deploy_${artifact_name}/;
-			cd deploy_${artifact_name};
-			tar -xvf ${artifact_name}.tar;
-			npm i;
-			cd ../;
-			ln -sfn deploy_${artifact_name}/ deploy_${applicationName}_current;`,
+		console.log(`Unpacking deployment: ${artifact_name}`);
+		await spawn('ssh', [					
+			`-l${user}`,`${destination}`,			
+			`cd mainwebsite_html;
+			pwd;						
+			tar -xvf ${artifact_name}.tar;						
+			rm *.tar;`,
 		]);
 	},
 };
-
-// INSTALL A DB SOMEWHERE
-// FIGURE OUT A GOOD 'seed' process
