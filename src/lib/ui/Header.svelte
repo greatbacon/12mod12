@@ -1,25 +1,32 @@
 <script lang="ts">
-	import {onMount} from 'svelte';
-	export let title = '12M0D12_';
+	import {onMount, onDestroy} from 'svelte';
+	export let title = '12M0D12';
 
-	onMount(() => {		
-		let elem = document.getElementById('text_header');
-		let value = elem.innerHTML;
-		let index = elem.innerHTML.search("_");
-		let root = elem.innerHTML.substring(0,index);
+	const header = title + "_";
+	const index = title.length;
 
-		setInterval(() => {
+
+	let interval;
+
+	onMount(() => {				
+		interval = setInterval(() => {
+			let elem = document.getElementById('text_header');								
+			let root = elem.innerHTML.substring(0,index);						
 			if (elem.innerHTML == root + '_') {
 				elem.innerHTML = root + '&nbsp;';				
 			} else {
 				elem.innerHTML = root + '_';				
 			}
-		}, 500);
+		}, 500);		
 	});
+
+	onDestroy(() => clearInterval(interval));
+
+	
 </script>
 
 <header class="content">
-	<h1 id="text_header">{title}</h1>
+	<h1 id="text_header">{header}</h1>
 	<div><a href="/">HOME</a>|<a href="/code">CODE</a>|AUDIO|WRITING|PHOTOS|ABOUT</div>
 </header>
 

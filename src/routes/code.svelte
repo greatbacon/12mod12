@@ -5,7 +5,7 @@
   let src = '/portfolio/CABALlogo.jpg';
 </script>
 
-<Header title="CODE_" />
+<Header title="CODE" />
 
 <main class="content">  
 	{#each code as blurb, i}					
