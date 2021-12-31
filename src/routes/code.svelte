@@ -1,8 +1,11 @@
 <script lang="ts">
 	import {code} from '$lib/data/code';	
+	import Header from '$lib/ui/Header.svelte';
 
   let src = '/portfolio/CABALlogo.jpg';
 </script>
+
+<Header title="CODE_" />
 
 <main class="content">  
 	{#each code as blurb, i}					

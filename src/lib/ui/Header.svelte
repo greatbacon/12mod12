@@ -1,17 +1,18 @@
 <script lang="ts">
 	import {onMount} from 'svelte';
-	let title = '12M0D12';
+	export let title = '12M0D12_';
 
-	onMount(() => {
+	onMount(() => {		
+		let elem = document.getElementById('text_header');
+		let value = elem.innerHTML;
+		let index = elem.innerHTML.search("_");
+		let root = elem.innerHTML.substring(0,index);
+
 		setInterval(() => {
-			let elem = document.getElementById('text_header');
-			let value = elem.innerHTML;
-			if (elem.innerHTML == title + '_') {
-				elem.innerHTML = title + '&nbsp;';
-				value = elem.innerHTML;
+			if (elem.innerHTML == root + '_') {
+				elem.innerHTML = root + '&nbsp;';				
 			} else {
-				elem.innerHTML = title + '_';
-				value = elem.innerHTML;
+				elem.innerHTML = root + '_';				
 			}
 		}, 500);
 	});
@@ -19,6 +20,7 @@
 
 <header class="content">
 	<h1 id="text_header">{title}</h1>
+	<div><a href="/">HOME</a>|<a href="/code">CODE</a>|AUDIO|WRITING|PHOTOS|ABOUT</div>
 </header>
 
 <style>
@@ -26,5 +28,12 @@
 		text-align: center;
 		margin-left: 0px;
 		font-size: 3rem;
+	}
+	#text_header {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.content {
+		margin-bottom: 2%;
 	}
 </style>

@@ -1,6 +1,5 @@
 <script lang="ts">
-	import '$lib/ui/style.css';
-	import Header from '$lib/ui/Header.svelte';
+	import '$lib/ui/style.css';	
 </script>
 
 <svelte:head>
@@ -8,5 +7,4 @@
 	<link rel="icon" href="/favicon.png" />
 </svelte:head>
 
-<Header />
 <slot />

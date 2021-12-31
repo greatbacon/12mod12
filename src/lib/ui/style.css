@@ -25,13 +25,6 @@ a#txt_header {
 	text-decoration: none;
 }
 
-iron-dropdown {
-	margin-top: 64px;
-	background: #000000;
-	border-style: dotted;
-	border-color: #00ff00;
-}
-
 a#navigate {
 	color: #00ff00;
 	font-size: 200%;
