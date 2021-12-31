@@ -1,31 +1,39 @@
 <script lang="ts">
-	import {code} from '$lib/data/code';	
-	import Header from '$lib/ui/Header.svelte';  
+	import {audio} from '$lib/data/audio';	
+	import Header from '$lib/ui/Header.svelte';    
 </script>
 
-<Header title="CODE" />
+<Header title="AUDIO" />
 
 <main class="content">  
-	{#each code as blurb, i}					
+	{#each audio as blurb, i}					
 				<div class="brief">
+          {#if blurb.thumbnail}
           <div class="brief_thumbnail">
-            <img src="{blurb.thumbnail}" alt="The code project image">
+            <img src="{blurb.thumbnail}" alt="Blank image for audio">
           </div>
+          {/if}
           <div class="brief_title">
-            <span>{blurb.title}
+            <span>{blurb.title}</span>
           </div>
+          {#if blurb.subtitle}
+          <div class="brief_subtitle">
+            <span>{blurb.subtitle}</span>
+          </div>
+          {/if}
           <div class="brief_workcycle">
             <span>
             From {blurb.start} {#if blurb.wrapped} to {blurb.wrapped}{/if}
             </span>
           </div>
-          <div class="brief_description">
-            <br/>    						
-            <span>{blurb.content}</span>
-          </div>          
+          <div class="brief_description">              						
+            {@html blurb.content}
+          </div>
+          {#if blurb.link}          
           <div class="brief_link">
             <a href="{blurb.link}" target="_blank" rel="noopener noreferrer">Learn More ==></a>
           </div>          
+          {/if}
         </div>
 	{/each}
 </main>
@@ -71,17 +79,12 @@ div.brief_workcycle span{
 	padding-left: 1%;
 }
 
-div.brief_description span{
+div.brief_description {
+  height: 166px;
 	font-family: 'times-new-roman';
 	color: #ffffff;	
 	padding-left: 1%;
 	display: flex;
-}
-
-div.brief_description span{
-	font-family: 'times-new-roman';
-	color: #ffffff;	
-	padding-left: 1%;
 }
 
 div.brief_link a{
