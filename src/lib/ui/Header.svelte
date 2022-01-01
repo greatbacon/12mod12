@@ -27,8 +27,8 @@
 
 <header class="content">
 	<h1 id="text_header">{header}</h1>
-	<div>
-		<a href="/">HOME</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|PHOTOS|<a href="/about">ABOUT</a></div>
+	<div class="links">
+		<a href="/">HOME</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div>
 </header>
 
 <style>
@@ -43,5 +43,12 @@
 	}
 	.content {
 		margin-bottom: 2%;
+	}
+	.links {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap:wrap;
+		justify-content: center;
 	}
 </style>
