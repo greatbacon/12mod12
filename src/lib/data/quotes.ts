@@ -255,4 +255,12 @@ export const quotes = [
 		author: 'Christiane Nusslein-Volhard',
 		text: 'I immediately loved working with flies. They fascinated me, and followed me around in my dreams.',
 	},
+	{
+		author: 'Loretta Napoleoni',
+		text: 'A good knitter always has the courage to undo her work and fix a big mistake.',
+	},
+	{
+		author: 'Larry Wall',
+		text: 'Easy things should be easy, and hard things should be possible.'
+	}
 ];
