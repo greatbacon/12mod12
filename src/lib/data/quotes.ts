@@ -262,7 +262,7 @@ export const quotes = [
 	{
 		author: 'Larry Wall',
 		text: 'Easy things should be easy, and hard things should be possible.'
-	}
+	},
 	{
 		author: 'Kongming',
 		text: 'The wise win before they fight, while the ignorant fight to win.'
