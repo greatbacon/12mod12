@@ -2,7 +2,8 @@ import type {Task} from '@feltcoop/gro';
 import {spawn} from '@feltcoop/felt/util/process.js';
 import {DIST_DIRNAME} from '@feltcoop/gro/dist/paths.js';
 
-let applicationName = '12M0D12';
+const applicationName = '12M0D12';
+const STATIC_REPO = '~/git/greatbacon.github.io';
 let user = <user>
 let destination = <destination>;
 
@@ -32,5 +33,11 @@ export const task: Task = {
 			tar -xvf ${artifact_name}.tar;						
 			rm *.tar;`,
 		]);
+
+		//new potential deploy to static site
+		await spawn ('cp', [`-r ${DIST_DIRNAME}/svelte-kit/.${STATIC_REPO}`]);
+		await spawn ('git',[`-C ${STATIC_REPO} add .`]);
+		await spawn ('git',[`-C ${STATIC_REPO} commit -m "new deploy ${timestamp}"`]);
+		await spawn ('git',[`-C ${STATIC_REPO} push`]);
 	},
 };
