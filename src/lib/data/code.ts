@@ -1,5 +1,17 @@
 export const code = [
   {
+    title: 'Felt Coop',
+    content: `In the winter of 2020 I began coversations about a new software & business project with my business partner <a href="https://ryanatkn.com">Ryan</a>.     
+    We are developing a tool for building & maintaing digital communities on the smaller scale.     
+    In the process we also hope to establish a worker-user owned platform cooperative. 
+    In the spring of 2021 I quit my paying job to start working on it full-time.
+    It is an open source project that can be viewed <a href="https://github.com/feltcoop/felt-server">here</a>.`,    
+    start: '2020-01-01',
+    wrapped: null,
+    thumbnail: 'https://www.felt.social/felt.png',
+    link: 'https://felt.social'
+  },
+  {
     title: 'Ibotta Gift Cards (launched as Pay With Ibotta)',
     content: `"Pay straight from the Ibotta app and get instant cash back on your entire purchase. It’s quick, easy, and secure."
 

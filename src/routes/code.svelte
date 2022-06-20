@@ -21,7 +21,7 @@
           </div>
           <div class="brief_description">
             <br/>    						
-            <span>{blurb.content}</span>
+            {@html blurb.content}
           </div>          
           <div class="brief_link">
             <a href="{blurb.link}" target="_blank" rel="noopener noreferrer">Learn More ==></a>
