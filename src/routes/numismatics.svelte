@@ -2,6 +2,9 @@
 	import {monies} from '$lib/data/numismatics';	
 	import Header from '$lib/ui/Header.svelte'; 
   
+  //TODO it would be cool if this page was a gallery view
+  // where instead of scrolling a list it was a copy of the display in my office
+  // and you clicked each coin/bill for a detail view
 </script>
 
 <Header title="NUMISMATICS" />

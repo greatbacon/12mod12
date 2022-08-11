@@ -17,7 +17,7 @@
 <main class="content">
 	{#each quotes as quote, i}
 		{#if index === i}
-			<div in:fade={{delay: 350, duration: 300}} out:fade={{duration: 300}}>
+			<div in:fade|local={{delay: 350, duration: 300}} out:fade|local={{duration: 300}}>
 				<div class="display_quote_text">{quote.text}</div>
 				<div class="display_quote_author">--{quote.author}</div>
 			</div>
