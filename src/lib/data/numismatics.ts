@@ -1,8 +1,36 @@
 export const codes = {
+  ARS:{
+    symbol: "$",
+    alpha:"ARS",
+    numeric: '032',
+    decimals: 2,
+    currency: "Argentine peso"
+  },
+  BRC:{
+    symbol: "Cz$",
+    alpha:"BRC",
+    numeric: '076',
+    decimals: 2,
+    currency: "Brazilian cruzado"
+  },
+  CLP:{
+    symbol: "$",
+    alpha:"CLP",
+    numeric: '152',
+    decimals: 0,
+    currency: "Chilean peso"
+  },
+  MXN: {
+    symbol: "$",
+    alpha:"MXN",
+    numeric: '484',
+    decimals: 2,
+    currency: "Mexican peso"
+  },
   USD:{
     symbol: "$",
     alpha: "USD",
-    numeric: 840,
+    numeric: '840',
     decimals: 2,
     currency: "United States dollar"
   }
@@ -69,11 +97,61 @@ export const monies = [
   description: "The Lincoln cent (sometimes called the Lincoln penny) is a one-cent coin that has been struck by the United States Mint since 1909. The obverse or heads side was designed by Victor David Brenner, as was the original reverse, depicting two stalks of wheat (thus 'wheat pennies', struck 1909–1958). All coins struck by the United States government with a value of 1⁄100 of a dollar are called cents because the United States has always minted coins using decimals. The penny nickname is a carryover from the coins struck in England, which went to decimals for coins in 1971.",
   link: "https://en.wikipedia.org/wiki/Lincoln_cent#wheat_cent",
 },
+{
+  obverse:"/numismatics-img/ars/argentine_25centavos_obverse.png",
+  reverse:"/numismatics-img/ars/argentine_25centavos_reverse.png",
+  name:"Argentine 25 centavos coin",
+  code: codes[`ARS`],
+  issued: 1994,
+  value: 0.25,
+  description: "A quarter peso coin of the current currency of Argentinia. This currency was the successor to the austral, which underwent hyperinflation in the late 1980s. The current peso replaced the austral at a rate of 1 peso = 10,000 australes (ten trillion pesos m$n). It was also referred to as peso convertible since the international exchange rate was fixed by the Central Bank at 1 peso to 1 U.S. dollar and for every peso convertible circulating, there was a US dollar in the Central Bank's foreign currency reserves. After the various changes of currency and dropping of zeros, one peso convertible was equivalent to 10 trillion pesos moneda nacional. However, after the financial crisis of 2001, the fixed exchange rate system was abandoned.",
+  link: "https://en.wikipedia.org/wiki/Argentine_peso",
+},
+{
+  obverse:"/numismatics-img/brc/brazilian_cruzado_obverse.png",
+  reverse:"/numismatics-img/brc/brazilian_cruzado_reverse.png",
+  name:"Brazillian 1 cruzado coin",
+  code: codes[`BRC`],
+  issued: 1986,
+  value: 1,
+  description: "The cruzado was the currency of Brazil from 1986 to 1989. It replaced the second cruzeiro (at first called the \"cruzeiro novo\") in 1986, at a rate of 1 cruzado = 1000 cruzeiros (novos) and was replaced in 1989 by the cruzado novo at a rate of 1000 cruzados = 1 cruzado novo.",
+  link: "https://en.wikipedia.org/wiki/Brazilian_cruzado",
+},
+{
+  obverse:"/numismatics-img/clp/chilean_10peso_obverse.png",
+  reverse:"/numismatics-img/clp/chilean_10peso_reverse.png",
+  name:"Chilean 10 peso coin",
+  code: codes[`CLP`],
+  issued: 1982,
+  value: 10,
+  description: "The current peso was introduced on 29 September 1975 by decree 1,123, replacing the escudo at a rate of 1 peso for 1,000 escudos. This peso was subdivided into 100 centavos until 1984. This coin was minted during the military dictatorship in Chile & bears the date of Pinochet's coup d'etat in Roman numerals. Right after the dictatorship was ended, the obverse face of the 10 peso coin was changed to a portrait of Bernardo O'Higgins.",
+  link: "https://en.wikipedia.org/wiki/Chilean_peso#Second_peso,_1975%E2%80%93present",
+},
+{
+  obverse:"/numismatics-img/mxn/mexican_10centavos_obverse.png",
+  reverse:"/numismatics-img/mxn/mexican_10centavos_reverse.png",
+  name:"Mexican 10 centavos coin",
+  code: codes[`MXN`],
+  issued: 1959,
+  value: 0.10,
+  description: "This coin predates the new coinage minting of the 1960s & 70s. I'm unsure who is represented on the obverse side of the coin.",
+  link: "https://en.wikipedia.org/wiki/Mexican_peso#Peso,_20th_century",
+},
+{
+  obverse:"/numismatics-img/mxn/mexican_peso_series_aa_obverse.png",
+  reverse:"/numismatics-img/mxn/mexican_peso_series_aa_reverse.png",
+  name:"Mexican Series AA 1 peso bill",
+  code: codes[`MXN`],
+  issued: 1967,
+  value: 1,
+  description: "Part of the Series AA bank notes issued by the Bank of Mexico (and printed by the American Bank Note Company). The obverse features the Aztec sun stone, while the reverse depicts the Angel of Independence. Production of these 1-peso notes ceased in 1970.",
+  link: "https://en.wikipedia.org/wiki/Mexican_peso#First",
+},
 // {
 //   obverse:"",
 //   reverse:"",
 //   name:"",
-//   code: "",
+//   code: codes[``],
 //   issued: 0,
 //   value: 0.25,
 //   description: "",
