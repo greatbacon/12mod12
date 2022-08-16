@@ -13,12 +13,40 @@ export const codes = {
     decimals: 2,
     currency: "Brazilian cruzado"
   },
+  CDF:{
+    symbol: "FC",
+    alpha:"CDF",
+    numeric:'976',
+    decimals: 2,
+    currency: "Congolese franc"
+  },
   CLP:{
     symbol: "$",
     alpha:"CLP",
     numeric: '152',
     decimals: 0,
     currency: "Chilean peso"
+  },
+  CZK:{
+    symbol: "Kč",
+    alpha:"CZK",
+    numeric:'203',
+    decimals: 2,
+    currency: "Czech koruna"
+  },
+  DEM: {
+    symbol: "DM",
+    alpha:"DEM",
+    numeric:'276',
+    decimals: 2,
+    currency: "German mark"
+  },
+  FRF: {
+    symbol: "Fr",
+    alpha:"FRF",
+    numeric: '250',
+    decimals: 2,
+    currency: "French franc"
   },
   MXN: {
     symbol: "$",
@@ -146,6 +174,46 @@ export const monies = [
   value: 1,
   description: "Part of the Series AA bank notes issued by the Bank of Mexico (and printed by the American Bank Note Company). The obverse features the Aztec sun stone, while the reverse depicts the Angel of Independence. Production of these 1-peso notes ceased in 1970.",
   link: "https://en.wikipedia.org/wiki/Mexican_peso#First",
+},
+{
+  obverse:"/numismatics-img/cdf/congolese_franc_50centimes_obverse.png",
+  reverse:"/numismatics-img/cdf/congolese_franc_50centimes_reverse.png",
+  name:"Non-circulating Congolese 50 centimes franc coin",
+  code: codes[`CDF`],
+  issued: 2002,
+  value: 0.5,
+  description: "The Congolese Franc is the currency of the Democratic Republic of the Congo. It is subdivided into 100 centimes. However, centimes are of very low value and rarely used. Currency denominated in centimes and francs (Dutch: Congolese frank) was first introduced in 1887 for use in the Congo Free State (1885-1908), which remained Congo's currency after independence until 1967, when the Zaïre was introduced. The Franc was re-established in 1997, replacing the New Zaïre at a rate of 1 Franc = 100,000 New Zaïres. This was equivalent to 300 trillion old francs. Coins were never issued for circulation, as even fractional units of 1, 5, 10, 20 and 50 centimes were issued in banknote form only. However, the country has authorised some foreign mints to issue commemorative and bullion coins in Congolese Franc denominations.",
+  link: "https://onlinecoin.club/Coins/Country/Congo_DR/filter/1/",
+},
+{
+  obverse:"/numismatics-img/czk/czech_2crown_obverse.png",
+  reverse:"/numismatics-img/czk/czech_2crown_reverse.png",
+  name:"Czech 2 koruna coin",
+  code: codes[`CZK`],
+  issued: 2011,
+  value: 2,
+  description: "The crown,or koruna, has been the currency of the Czech Republic since 1993. The crown is one of the European Union's 11 currencies, and the Czech Republic is legally bound to adopt the euro currency in the future.",
+  link: "https://en.wikipedia.org/wiki/Czech_koruna",
+},
+{
+  obverse:"/numismatics-img/dem/5deutchemark_obverse.png",
+  reverse:"/numismatics-img/dem/5deutchemark_reverse.png",
+  name:"5 Deutschmark coin",
+  code: codes[`DEM`],
+  issued: 1992,
+  value: 5,
+  description: "The Deutsche Mark, abbreviated 'DM' or 'D-Mark', was the official currency of West Germany from 1948 until 1990 and later the unified Germany from 1990 until the adoption of the euro in 2002. Hamilton got this coin from a friend's father after their trip to Europe, shortly after the introduction of the euro.",
+  link: "",
+},
+{
+  obverse:"/numismatics-img/frf/2french_franc_obverse.png",
+  reverse:"/numismatics-img/frf/2french_franc_reverse.png",
+  name:"French 2 franc coin",
+  code: codes[`FRF`],
+  issued: 1993,
+  value: 2,
+  description: "The franc, also commonly distinguished as the French franc (FF), was a currency of France. Issued since 1360, it had gone through a number of issuances & valuations. This coin is from the new franc perioid & features French Resistance hero Jean Moulin on the obverse. Hamilton got this coin from a friend's father after their trip to Europe, shortly after the introduction of the euro.",
+  link: "https://en.wikipedia.org/wiki/French_franc",
 },
 // {
 //   obverse:"",
