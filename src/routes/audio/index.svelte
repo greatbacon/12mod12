@@ -10,7 +10,7 @@
 				<div class="brief">
           {#if blurb.thumbnail}
           <div class="brief_thumbnail">
-            <img src="{blurb.thumbnail}" alt="Blank image for audio">
+            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank image for audio">
           </div>
           {/if}
           <div class="brief_title">
@@ -58,6 +58,14 @@ div.no_image_brief {
 	border-bottom-style: dotted;
 	border-color: #00ff00;
 	text-align: center;
+}
+
+img.brief_thumbnail{
+	float: left;
+  height: auto; 
+  width: auto; 
+  max-width: 166px; 
+  max-height: 166px;
 }
 
 div.brief_thumbnail{

@@ -1,5 +1,14 @@
 export const audio = [
   {
+    title: 'Hollywood Zoo Crew',
+    subtitle: 'an improv comedy podcast',
+    content: 'A comedy improv podcast, here to provide all the 100% true latest news, haps, interviews, and reviews of what goes on in Hollywood, outside of it.<br> Project is finished for now, pending any bolts of inspiritaion.',
+    link: '/audio/hollywoodzoocrew',
+    start: '2017-04-25',
+    wrapped: '2018-05-20',
+    thumbnail: '/portfolio/img/HZC_smol.jpg'
+  },
+  {
     title: 'Hary Potter and the Portrait of What Looked Like a Large Pile of Ash',
     subtitle: 'Chapter 13: The Handsome One',
     content: `<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/369295169&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>`,
