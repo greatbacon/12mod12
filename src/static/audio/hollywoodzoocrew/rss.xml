@@ -19,6 +19,32 @@
 	<itunes:explicit>yes</itunes:explicit>
 
 	<item>
+		<itunes:episode>31</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Choice Cuts</title>		
+		<itunes:title>Choice Cuts</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	A whirlwind week for you all this week! We're talking about the movie Choice Cuts, a meta-analysis indie flick about a documentarian and the short lady butcher she falls in love with. Other topics of discussion include Mythicla Molemen Menacing the Metro, Monsters & Mansplainers, and to wrap it up investigative journalist Twinklebaby gives us the scoop.
+	
+	Sponsored by Mac & Peas and Perk 'em Up, Jerk 'em Off Jerky.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/031_ChoiceCuts.mp3" 
+			length="96848084" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Choice Cuts</guid>
+		<pubDate>Wed, 22 Nov 2017 07:00:00 GMT</pubDate>
+		<itunes:duration>3883.0759183673467</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
 		<itunes:episode>30</itunes:episode>
 		<itunes:episodeType>full</itunes:episodeType>
 		<itunes:season>1</itunes:season>

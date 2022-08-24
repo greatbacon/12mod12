@@ -197,12 +197,12 @@ const manifest: Array<Manifest> = [
 	
 	Sponsored by Avalanche of Pants and Fermented Horse Blood
 	`, published: "11/09/2017"},
-	// {url: '031_ChoiceCuts.mp3', description: `
+	{url: '031_ChoiceCuts.mp3', description: `
 
-	// A whirlwind week for you all this week! We're talking about the movie Choice Cuts, a meta-analysis indie flick about a documentarian and the short lady butcher she falls in love with. Other topics of discussion include Mythicla Molemen Menacing the Metro, Monsters & Mansplainers, and to wrap it up investigative journalist Twinklebaby gives us the scoop.
+	A whirlwind week for you all this week! We're talking about the movie Choice Cuts, a meta-analysis indie flick about a documentarian and the short lady butcher she falls in love with. Other topics of discussion include Mythicla Molemen Menacing the Metro, Monsters & Mansplainers, and to wrap it up investigative journalist Twinklebaby gives us the scoop.
 	
-	// Sponsored by Mac & Peas and Perk 'em Up, Jerk 'em Off Jerky.
-	// `, published: "11/22/2017"},
+	Sponsored by Mac & Peas and Perk 'em Up, Jerk 'em Off Jerky.
+	`, published: "11/22/2017"},
 	// {url: '032_BestofHZCEpisodes1to10.mp3', description: `Last week was Thanksgiving week, which means we didn't get our shit together and record. We were eating turkey, you demons. Instead, here's a clip show of our early stuff. No, don't go back and listen to the episodes, stay here where it's warm, and the bits are always hot.`, published: "11/28/2017"},
 	// {url: '033_RoscoesBasilisk.mp3', description: `
 
@@ -249,7 +249,7 @@ const channel: PodcastChannel = {
 // TODO these two different paths are bad, look at felt path utils
 const CACHED_FEED_DATA_FILE_PATH = 'hzc_feed.json';
 const CACHED_FEED_PATH_ROOT_PATH = 'src/lib/data/' + CACHED_FEED_DATA_FILE_PATH;
-const RSS_FEED_FILE_RELATIVE_PATH = `../../static/hzc/rss.xml`;
+const RSS_FEED_FILE_RELATIVE_PATH = `../../static/audio/hollywoodzoocrew/rss.xml`;
 
 // Outputs a file with event types that can be imported from anywhere with no runtime cost.
 export const gen: Gen = async ({fs, log}) => {

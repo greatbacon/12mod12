@@ -20,7 +20,7 @@
 	<section>
 		<p>A comedy improv podcast, here to provide all the 100% true latest news, haps, interviews, and reviews of what goes on in Hollywood, outside of it. Project is finished for now, pending any bolts of inspiritaion.</p>
 		<p>
-			To subscribe use <a href="/hzc/rss.xml">this RSS link</a>.
+			To subscribe use <a href="/audio/hollywoodzoocrew/rss.xml">this RSS link</a>.
 		</p>
 	</section>
 </div>
