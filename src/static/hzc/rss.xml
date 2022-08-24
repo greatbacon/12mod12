@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+<atom:link href="https://www.12mod12.com/audio/hollywoodzoocrew/rss.xml" rel="self" type="application/rss+xml"/>
+<channel>
+	<title>Hollywood Zoo Crew</title>
+	<itunes:title>Hollywood Zoo Crew</itunes:title>
+	<link>https://www.12mod12.com/audio/hollywoodzoocrew</link>
+	<language>en-us</language>
+	<copyright>&#169; 2022 Hollywood Zoo Crew</copyright>
+	<itunes:author>Hollywood Zoo Crew</itunes:author>
+	<description>A comedy improv podcast, here to provide all the 100% true latest news, haps, interviews, and reviews of what goes on in Hollywood, outside of it.</description>
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Hollywood Zoo Crew</itunes:name>
+		<itunes:email>hollywoodzoocrew@gmail.com</itunes:email>
+	</itunes:owner>
+	<itunes:image href="http://magi.12mod12.com/hzc/HZC_smol.jpg"/>
+	<itunes:category text="Comedy"></itunes:category>
+	<itunes:explicit>yes</itunes:explicit>
+
+	<item>
+		<itunes:episode>30</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Oceans Nine-Eleven</title>		
+		<itunes:title>Oceans Nine-Eleven</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week the boys discuss the newest Oscar Bait Film, Oceans Nine-Eleven, a heist film starring George Clooney, George W. Bush, and some other people who are revealed to have architected the attacks on 9/11 in order to score a big haul of denim hidden under the North Tower. Other topics of discussion include The Ghost of John Candy's election to LA County Sheriff, Rob Lowe's etherial ghost glow, and Mole People, Mole Problems.
+	
+	Sponsored by Avalanche of Pants and Fermented Horse Blood
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/030_OceansNineEleven.mp3" 
+			length="96877733" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Oceans Nine-Eleven</guid>
+		<pubDate>Thu, 09 Nov 2017 07:00:00 GMT</pubDate>
+		<itunes:duration>3538.3379591836733</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>29</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>After Darkerer with DP</title>		
+		<itunes:title>After Darkerer with DP</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	Hey there all you cool cats and dogs out there in internet land, it's a special sneak peak of this week's After Darkerer w/ DP. In case you're not subscribed to our Patreon and already caught this weeks livestream on Twitch(TM), you're in for a treat. Dylan, his sidekick Dictionary Wizard, and bandleader Oolong Johnson do some opening banter, tell you DaNews about Kelly Clarkson, interview the spirit of Pierre-Auguste Renoir, and do some Firecracker Tequila Shots!
+	
+	Sponsored by Podcasts Anonymous and Learntoswim.com
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/029_AfterDarkererwithDP.mp3" 
+			length="59571850" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">After Darkerer with DP</guid>
+		<pubDate>Wed, 01 Nov 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>2403.134693877551</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>28</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>The Lovely Canal</title>		
+		<itunes:title>The Lovely Canal</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This weeks episode centers on our discussion of the new Romantic Comedy film, The Lovely Canal, starring Amy Adams as our heorine Elouise, who is simply trying to make her way home. How many strangers will pass her by, attempting to stop her at every turn? About 3. Other topics include Hamilton's gambling habits, an exhausted Ryan Rynolds, and Stripes Or Plaid?
+	
+	Sponsored by YESTOBOOBS.com and PickledDick.com
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/028_TheLovelyCanal.mp3" 
+			length="93470844" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">The Lovely Canal</guid>
+		<pubDate>Wed, 25 Oct 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3488.5485714285714</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>27</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Some Like It Cold</title>		
+		<itunes:title>Some Like It Cold</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	Back in the booth after a three week hiatus, this weeks episode comes out swinging. We got scintillating discussion of the newest #herniahubbies in Hollywood, wizard puns, discussion about the Wide Wide World of Sportsball, some fatastic foley work on the part of Dylan, and a dead rat.
+	
+	Sponsored by Wormywood Crunch and WiPr
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/027_SomeLikeItCold.mp3" 
+			length="95459215" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Some Like It Cold</guid>
+		<pubDate>Wed, 18 Oct 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3678.850612244898</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>26</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Dr Despicable and the Deceased</title>		
+		<itunes:title>Dr Despicable and the Deceased</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week's theater of the imagination takes us on a meat themed cruise through the dark seas of David Lynch's Dr. Despicable and the Deceased. Other topics of discussion this week center on Nicole Kidman's witchiness, Jordan Matthew's reanimated career, our beef with Dwayne "The Shit" Johnson, and the fact that Dylan brought cookies to our sausage fest.
+	
+	Sponsored by Dog Dresses R-US and NuJuice.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/026_DrDespicableandtheDeceased.mp3" 
+			length="94460481" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Dr Despicable and the Deceased</guid>
+		<pubDate>Wed, 20 Sep 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3622.452244897959</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>25</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Corn God my dad is dead I wanna play catch with my dead dad</title>		
+		<itunes:title>Corn God my dad is dead I wanna play catch with my dead dad</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	A special episode for you this week listners. Hollywood Hotshot Kevin Costner joins us to talk about his upcoming film, Corn God. We laugh, we cry, we talk about John Candy's ghost, haggling to eleven, hand picked does not quit corn, and an edible complex.
+	
+	Sponsored by the Wichita Busker's Union and Gargle(TM)
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/025_CornGod.mp3" 
+			length="87623330" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Corn God my dad is dead I wanna play catch with my dead dad</guid>
+		<pubDate>Thu, 14 Sep 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3425.9591836734694</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>24</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Jim, Not Jimmy</title>		
+		<itunes:title>Jim, Not Jimmy</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week we actually have some clips to play, instead of just verbally describing our favorite scenes, which makes for bad radio. The clips revolve around the new biopic about Jim McMilan, the founder of The Rent is Too Damn High Party. Other topics of discussion include Kirsten Stewart being a grilled cheese sandwhich, the Urban Dictionary Wizard drops in, David Newsby discusses mole syrum, and life coach Gary helps the gang work out the tension.
+	
+	Sponsored by The Straight Razor Depot and Captain Yoey's Hand-culled Pickles.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/024_JimNotJimmy.mp3" 
+			length="91713729" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Jim, Not Jimmy</guid>
+		<pubDate>Wed, 06 Sep 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3378.390204081633</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>23</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Stank House</title>		
+		<itunes:title>Stank House</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This weeks episode center's around the leading film of the mid-2000s frathouse comedy revival, Stank House starring some really respected actors, like... DJ Qualls, I think? Other topics include The Prince consort attends his own funeral, Peter in sales, Michael Caine's sticky wicket, and a new game!
+	
+	Sponsored by Pop-Up Livables and Vamper.io
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/023_StankHouse.mp3" 
+			length="96453480" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Stank House</guid>
+		<pubDate>Wed, 30 Aug 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3746.0636734693876</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>22</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Undercover Nerds</title>		
+		<itunes:title>Undercover Nerds</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week the gang tackles the hard hitting questions posed by the film Undercover Nerds. Mostly "what if be meaty cops were actually nerds?" Other topics of discussion include Jay-Beeb's wild hair, our Planet Hollywood Money Person, Vin Diesel's phallic shape, Jeb!, and our new A.I. friend Mr. ThinkBrain.
+	
+	Sponsored by Canal Dipped Cornpatties and Whispr
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/022_UndercoverNerds.mp3" 
+			length="94923721" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Undercover Nerds</guid>
+		<pubDate>Wed, 23 Aug 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3636.741224489796</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>21</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>His Highness</title>		
+		<itunes:title>His Highness</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week's episode features some astral projection on Dylan's part, so apologies for the wonky sound quality from him. Besides that, we talk about the new film starring TJ Miller, His Highness, about a stoner who trades places with the pope for a day. Other topics discussed include hole-y water, a little good news, and we try and give DP the John Wilkes Boot.
+	
+	Sponsored by Bananas Worth and CrabLyft
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/021_HisHigness.mp3" 
+			length="98863295" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">His Highness</guid>
+		<pubDate>Wed, 16 Aug 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3804.6302040816327</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>20</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Animal Action Comics Cinematic Multiverse</title>		
+		<itunes:title>Animal Action Comics Cinematic Multiverse</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week the crew tackles the summer blockbuster whirlwind of Animal Action Comics. We're talking The BeefCollector, The Eggslayer, and Porcine Love. You've never heard insightful commentary like this. Other topics of conversation include Rob Schneider's Bucket Challenge, pranking Jon Favreau, and a special guest ruffles some feathers.
+	
+	Sponsored by blankslates.com and reallyrealstamps.com
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/020_AnimalActionComicsCinematicMultiverse.mp3" 
+			length="95709136" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Animal Action Comics Cinematic Multiverse</guid>
+		<pubDate>Wed, 09 Aug 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3599.4644897959183</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>19</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Heights of Love</title>		
+		<itunes:title>Heights of Love</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week we have a special guest, fan and friend (frand) of the show Andrew! He joins us on this weeks discussion of the romcom set in the destroyed sky scrapers of post apocalyptic San Fran. Highlights from the discussion include Sean Penn's enlightenment, an interview with director Krane McCormic, our pitch for ragingweiners.fast, and a koala burn track.
+	
+	Sponsored by The Tightline.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/019_HeightsofLove.mp3" 
+			length="97833805" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Heights of Love</guid>
+		<pubDate>Wed, 02 Aug 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3557.381224489796</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>18</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Vino de Payes</title>		
+		<itunes:title>Vino de Payes</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	Discussion this week centers around the new Spanish language coming of age film "Vino de Payes," starring Christoph Waltz and Randy Quaid. Highlights of the disccussion include Katy Scary, Steven Segal should die, and the hit single "Prosciutto e melone."
+	
+	Sponsored by Daniel McGonagals Bathtub Gin and The Ellistical
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/018_VinodePayes.mp3" 
+			length="91284011" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Vino de Payes</guid>
+		<pubDate>Wed, 19 Jul 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3319.562448979592</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>17</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Legend of the Leagues</title>		
+		<itunes:title>Legend of the Leagues</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week's episode centers on the film Legend of the Leagues, which tells the story of Mabel Onthorpe, an elderly woman who finds herself thrust into the world of competitive sports under the tutelage of Rex "3x3cution" Smith, a former pro-gamer who's career was cut short by carpal tunnel. Other topics of discussion include Dylan's list of enemies, sitting is the new shitting, bounty hunting, and spurs in the daylight.
+	
+	Sponsored by Mac & Peas and Lunchables.io
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/017_LegendoftheLeagues.mp3" 
+			length="105409021" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Legend of the Leagues</guid>
+		<pubDate>Wed, 12 Jul 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3775.0073469387753</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>16</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Wearwolves: A True Story</title>		
+		<itunes:title>Wearwolves: A True Story</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	Listen in on this weeks discussion where we talk about the silverscreen adaption of the off-broadway hit Wearwolves: A True Story, about the high strung fashionistas who took the world by storm in Milan. Also they're werewolves. Other topics of discussion include "The Guzzler", Hulk Hogan's Swaying Testicles, Construct Criticsm, and "Mole People: Mole Persons or Mole Tragedy?"
+	
+	Sponsored by One Eyed Dan's Discount Fireworks and The Llamasutra.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/016_WearwolvesATrueStory.mp3" 
+			length="115755529" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Wearwolves: A True Story</guid>
+		<pubDate>Wed, 05 Jul 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3933.6751020408165</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>15</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>The Buttonhook</title>		
+		<itunes:title>The Buttonhook</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	In this week's episode, the Zoo Crew discuss the sports film The Buttonhook, starring Channing Tatum and Marlee Matlin. Highlights of the discussion include canal jackals, Ally McBeal's Shocking Reveal, a visitor from the past, and Katy Perry's magical leanings.
+	
+	Sponsored by Y Knot and Cheese, Please.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/015_TheButtonhook.mp3" 
+			length="103913765" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">The Buttonhook</guid>
+		<pubDate>Wed, 28 Jun 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3872.6008163265305</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>14</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Tapas Night</title>		
+		<itunes:title>Tapas Night</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	Tonight's episode centers around Christoph Waltz's new independent film Tapas Night. Equal parts horror and humor, the film centers on the dinner conversations of the patrons of a tapas restaurant where the tapas just happens to be alive. Topics of discussion include Mage or Magician watch, horrific dinner conversation, a brief interview with Steven Spielberg, and we play out a scene from the film in it's entirety.
+	
+	Sponsored by HipCo and Podcasts Anonymous.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/014_TapasNight.mp3" 
+			length="102339531" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Tapas Night</guid>
+		<pubDate>Thu, 22 Jun 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3746.1420408163267</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>13</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>The Fidget Spinner Movie</title>		
+		<itunes:title>The Fidget Spinner Movie</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week we discuss the latest film from Dreamworks Animation, The Fidget Spinner Movie. Spoiler alert, it's as good as you probably think it is. Highlights of the discussion include hernias in Hollywood, the true purpose of this film, and how to cook canal grouper.
+	
+	Sponsored by Lil' Piggies Pig BLankets and Captain Yoey's Hand-culled Pickles.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/013_TheFidgetSpinnerMovie.mp3" 
+			length="98345959" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">The Fidget Spinner Movie</guid>
+		<pubDate>Wed, 14 Jun 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3689.9787755102043</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>12</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>ZooZoo BabyBaby</title>		
+		<itunes:title>ZooZoo BabyBaby</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	On this weeks very special episode, the hosts are joined by a special guest, Nick Powell. Also, their discussion of the seminal work ZooZoo BabyBaby is interrupted by a visit from the Internet Police. Topics of discussion include an interview with the arresting officer, a visit from their in-house counsel, and the need to change the name of the podcast.
+	
+	Sponsored by Pungent Parade and Requiem Duffles.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/012_ZooZooBabyBaby.mp3" 
+			length="91938292" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">ZooZoo BabyBaby</guid>
+		<pubDate>Wed, 07 Jun 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3381.2897959183674</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>11</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Blue Ray Archipelago</title>		
+		<itunes:title>Blue Ray Archipelago</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	Hollywood Outsider gets tropical as we talk about the upcoming World War 2 film, Blue Ray Archipelago. Staring Vince Vaughn and Rachel McAdams, with brilliant CGI rays provided by Weta Digital. Highlights of the discussion include Boy Fights, quantum entanglement, the flying hand theory, and America Loves A War.
+	
+	Sponsored by multipleforks.com and Sloshy Stan's Bulk Liqour.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/011_BlueRayArchipelago.mp3" 
+			length="98225119" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Blue Ray Archipelago</guid>
+		<pubDate>Thu, 25 May 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3599.882448979592</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>10</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>King of the Hobos</title>		
+		<itunes:title>King of the Hobos</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week your intrepid hosts discuss the film King of the Hobos, a stylistic callback to child adventure movies from the late eighties. Highlights include discussions about sweeps week, the hobo code, and People of Whale Features.
+	
+	Sponsored by WiPr and Jamtastic Jams
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/010_KingoftheHobos.mp3" 
+			length="102725131" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">King of the Hobos</guid>
+		<pubDate>Thu, 25 May 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3779.082448979592</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>9</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Four And Twenty</title>		
+		<itunes:title>Four And Twenty</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This week's show centers on discussion of the film Four And Twenty. Featuring an all avian cast and narration by Jerry Stiller, it follows the journey of migrating blackbirds. Highlights include guest appearances from three of our nations presidents as well as a critique of cinema from the past.
+	
+	Sponsored by NuJuice and Sploosh Buddies (.com)
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/009_FourAndTwenty.mp3" 
+			length="109671907" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Four And Twenty</guid>
+		<pubDate>Thu, 18 May 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3944.6726530612245</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>8</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Under The Thornbrush Willow</title>		
+		<itunes:title>Under The Thornbrush Willow</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	Back with a vengeance! This week we discuss the groundbreaking work of Lars Van Trier, Under The Thornbrush Willow. Points of discussion include the failure of parents in their role, the futility of existence, and the country of sentient jam jars, Jambonia.
+	
+	Sponsored by The Straight Razor Depot and Goose Going.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/008_UndertheThornbrushWillow.mp3" 
+			length="106147522" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Under The Thornbrush Willow</guid>
+		<pubDate>Wed, 10 May 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3838.850612244898</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>7</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>How The West Was One</title>		
+		<itunes:title>How The West Was One</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	The lost episode from 5/10. Unfortunately we were not able to recover all of the audio lost, so it is possible some conversations may be hard to follow. If you skip it we won't blame you. Discussion centers on the film How The West Was One, starring Keanu Reeves, Kirsten Schall, and Tommy Lee Jones.
+	
+	Sponsored by Daniel McGonagals Bathtub Gin and The Ellistical.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/007_HowtheWestWasOne.mp3" 
+			length="108519413" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">How The West Was One</guid>
+		<pubDate>Wed, 03 May 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3722.370612244898</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>6</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Stage Left</title>		
+		<itunes:title>Stage Left</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This weeks episode of Hollywood Outsider focuses on the Incredibly Accurate biopic of Shakespeare's life; Stage Left. Other topics include an in depth critique of Hamlet, necromancy, and strong opinions on the works of Hans Zimmer.
+	
+	Sponsored by reallyrealstamps.com and Lunchables.io
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/006_StageLeft.mp3" 
+			length="114529233" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Stage Left</guid>
+		<pubDate>Wed, 26 Apr 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3972.806530612245</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>5</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Monkey Brains</title>		
+		<itunes:title>Monkey Brains</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	On tonight's Hollywood Outsider we discuss the new indie-thriller-comedy (throbidy) Monky Brains staring acclaimed child actor Jordan Matthews. Other topics include snake control, The Christening, and one hosts primal fear.
+	
+	Sponsored by Y Knot and Flying Freddy's Fingers.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/005_MonkeyBrains.mp3" 
+			length="102207179" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Monkey Brains</guid>
+		<pubDate>Thu, 20 Apr 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3638.987755102041</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>4</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Friday Night Fight Clubs</title>		
+		<itunes:title>Friday Night Fight Clubs</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	This weeks episode brings a double barreled blast of fun. The focus being the soon to be released movie about the racially integrated underground fighting circuit in south Texas, Friday Night Fight Clubs, as well as an interview with the author the film is based upon.
+	
+	Sponsored by Requiem Duffles and Flattner.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/004_FridayNightFightClubs.mp3" 
+			length="107467616" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Friday Night Fight Clubs</guid>
+		<pubDate>Wed, 12 Apr 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>4087.928163265306</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>3</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Placid Views</title>		
+		<itunes:title>Placid Views</itunes:title>
+		<description>
+			<![CDATA[
+			
+
+	After an extended hiatus we are back this week discussing the understated masterpiece Placid Views staring Christopher Walken and Michael Cera. Topics include sepia tone on the Super8, Croak and GOAT, and backdoor pilots to the Marvel universe.
+	
+	This weeks episode sponsored by Goose Going & Jamtastic Jams.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/003_PlacidViews.mp3" 
+			length="106370974" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Placid Views</guid>
+		<pubDate>Wed, 05 Apr 2017 06:00:00 GMT</pubDate>
+		<itunes:duration>3950.9942857142855</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>2</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Banana Grammar</title>		
+		<itunes:title>Banana Grammar</itunes:title>
+		<description>
+			<![CDATA[
+			
+	Audacity ate a track from our first recording session, so this is the first episode of Hollywood Outsider we can actually release! On this week's episode we discuss the upcoming oscars, subs or dubs?, our favorite scene from the film Banana Grammar, and second puberty.
+	
+	This weeks episode sponsored by Freddy's Flying Fingers and Sploosh Buddies.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="http://magi.12mod12.com/hzc/002_BananaGrammar.mp3" 
+			length="83357030" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Banana Grammar</guid>
+		<pubDate>Wed, 22 Feb 2017 07:00:00 GMT</pubDate>
+		<itunes:duration>3155.774693877551</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+</channel>
+</rss>
