@@ -266,5 +266,9 @@ export const quotes = [
 	{
 		author: 'Kongming',
 		text: 'The wise win before they fight, while the ignorant fight to win.'
+	},
+	{
+		author: 'Marcus Aurelius',
+		text: 'Look back over the past, with its changing empires that rose and fell, and you can foresee the future too.'
 	}
 ];
