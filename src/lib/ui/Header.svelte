@@ -28,7 +28,7 @@
 <header class="content">
 	<h1 id="text_header">{header}</h1>
 	<div class="links">
-		<a href="/">HOME</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div>
+		<a href="/">HOME</a>|<a href="/blog">BLOG</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div>
 </header>
 
 <style>
