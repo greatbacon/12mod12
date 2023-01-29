@@ -203,35 +203,35 @@ const manifest: Array<Manifest> = [
 	
 	Sponsored by Mac & Peas and Perk 'em Up, Jerk 'em Off Jerky.
 	`, published: "11/22/2017"},
-	// {url: '032_BestofHZCEpisodes1to10.mp3', description: `Last week was Thanksgiving week, which means we didn't get our shit together and record. We were eating turkey, you demons. Instead, here's a clip show of our early stuff. No, don't go back and listen to the episodes, stay here where it's warm, and the bits are always hot.`, published: "11/28/2017"},
-	// {url: '033_RoscoesBasilisk.mp3', description: `
+	{url: '032_BestofHZCEpisodes1to10.mp3', description: `Last week was Thanksgiving week, which means we didn't get our shit together and record. We were eating turkey, you demons. Instead, here's a clip show of our early stuff. No, don't go back and listen to the episodes, stay here where it's warm, and the bits are always hot.`, published: "11/28/2017"},
+	{url: '033_RoscoesBasilisk.mp3', description: `
 
-	// This weeks episode tuck's into Roscoe's Basilisk, a story about a restaurateur robot that grows spiteful of the humanity that did not help it, and the software team that did. Other topics of discussion include the recent discussion on necromancer neutrality, we accidentally uploaded a clip show, and some (bad) dating advice.
+	 This weeks episode tuck's into Roscoe's Basilisk, a story about a restaurateur robot that grows spiteful of the humanity that did not help it, and the software team that did. Other topics of discussion include the recent discussion on necromancer neutrality, we accidentally uploaded a clip show, and some (bad) dating advice.
 	
-	// Sponsored by Pungent Parad and OrganEx
-	// `, published: "11/29/2017"},
-	// {url: '034_PhiliphilesAlovelovestorystory.mp3', description: `
+	 Sponsored by Pungent Parad and OrganEx
+	 `, published: "11/29/2017"},
+	{url: '034_PhiliphilesAlovelovestorystory.mp3', description: `
 
-	// This week's discussion centers on the newest RomCom with a twist, David Cronenberg's body horror! Other highlights include Bel Air is burning, my bloody Cabbage Patch Attack, we commune with the distant year of 2014, and an apology.
+	 This week's discussion centers on the newest RomCom with a twist, David Cronenberg's body horror! Other highlights include Bel Air is burning, my bloody Cabbage Patch Attack, we commune with the distant year of 2014, and an apology.
 	
-	// Sponsored by Elevation.io and The Tightline.
-	// `, published: "12/06/2017"},
-	// {url: '035_HarryPotterandtheMessyDivorce.mp3', description: `
+	 Sponsored by Elevation.io and The Tightline.
+	 `, published: "12/06/2017"},
+	{url: '035_HarryPotterandtheMessyDivorce.mp3', description: `
 
-	// This week we discuss the newest entry in what has now become an annual Christmas Film Franchise Multiverse (TM). Harry Potter! Other topic's include David Duchovny's testicles, the safety of drinking vaccinations, and some festive rural cooking.
+	 This week we discuss the newest entry in what has now become an annual Christmas Film Franchise Multiverse (TM). Harry Potter! Other topic's include David Duchovny's testicles, the safety of drinking vaccinations, and some festive rural cooking.
 	
-	// Sponsored by University of Randall and the Boring Company, I guess?
-	// `, published: "12/17/2017"},
-	// {url: '036_Him.mp3', description: `Some real fire for you this week. The topic? Larry David's new horrible comedy vehicle, Him? Other topics include the suspension of habeus news corpus in this country, Khloe Kardashian's Fashion, a visit from Dankenstein, the studio chaplain, the sins of quokka's, and the truth straight from Newsby's mouth.
-	// Sponsored by Multipleforks.pizza and Cheese Please.`, published: "12/26/2017"},
-	// {url: '037_BestofHZCEpisodes10to16.mp3', description: `New Year New You, that's what I always say. So why don't you start the year off right by wallowing in our greatest hits from last year. We really think you deserve it.`, published: "12/31/2017"},
-	// {url: '038_AskandYeShallReceive.mp3', description: `This week we attempt (and fail) to review a new family friendly film "Ask and Ye Shall Receive." A rambling story about time travel and the obtuse rules that govern it. Other topics include A Diamond in the Ruffalo, The Crew Solicits an Intern (not like that), automation in the studio, and we sell out!
-	// Sponsored by PortPancake and CrabLyft`, published: "01/08/2018"},
-	// {url: '039_TheLifeandTimesofBenjaminFranklin.mp3', description: `Broadcasting live from a hot air balloon the boys discuss their guest's one act play, interview their intern, and moon people out of the hot air balloon to the tune of 90s house music. Sponsored by Pirate Zoo Crew Branded Jail Snacks & thewheeljobs.pizza`, published: "03/13/2018"},
-	// {url: '040_RonnyandTheRowdyRompingBoys.mp3', description: `This weeks discussion centers on a dark, ultraviolent retelling of the classic Peter Pan tale, plus a visit from in house legal & the in house psych. Sponsored by Knuckleballers & Holonuts.`, published: "04/14/2018"},
-	// {url: '041_MacDaddysWinter.mp3', description: `This week the boys discuss the latest in horror film sweeping the nation. Plus some hot celeb goss, a diss track, and life advice from ol' Handsy D. Sponsored by Warty Larry's Whimsical Wands & the Floridator.`, published: "05/09/2018"},
-	// {url: '042_SiameseandMe.mp3', description: `In this episode we discuss Siamese and Me, the story of two siamese twins embroiled in the underworld of snuff films. Plus tunes from Bladieo Lab & some Hollywood truths from old Dirty D. Sponsored by Really Damn Solid Cologne & Flyin Freddy Fingers.`, published: "05/20/2018"},
-	// {url: '043_AVery#BrandedWinterHolidayTelethon.mp3', description: `As part of our part to help with the ongoing Banana Blight, we discussed our favorite Christmas films of the year, plus a bit of Bladeio Lab & some words from our sponsors, Lyle Flannigan: Attorney At Law & the Bill and Melinda Gates Foundation Vaccine Drive to Cure Bannana Blight. `, published: "01/03/2021"},
+	 Sponsored by University of Randall and the Boring Company, I guess?
+	 `, published: "12/17/2017"},
+	 {url: '036_Him.mp3', description: `Some real fire for you this week. The topic? Larry David's new horrible comedy vehicle, Him? Other topics include the suspension of habeus news corpus in this country, Khloe Kardashian's Fashion, a visit from Dankenstein, the studio chaplain, the sins of quokka's, and the truth straight from Newsby's mouth.
+	 Sponsored by Multipleforks.pizza and Cheese Please.`, published: "12/26/2017"},
+	 {url: '037_BestofHZCEpisodes10to16.mp3', description: `New Year New You, that's what I always say. So why don't you start the year off right by wallowing in our greatest hits from last year. We really think you deserve it.`, published: "12/31/2017"},
+	{url: '038_AskandYeShallReceive.mp3', description: `This week we attempt (and fail) to review a new family friendly film "Ask and Ye Shall Receive." A rambling story about time travel and the obtuse rules that govern it. Other topics include A Diamond in the Ruffalo, The Crew Solicits an Intern (not like that), automation in the studio, and we sell out!
+	 Sponsored by PortPancake and CrabLyft`, published: "01/08/2018"},
+	{url: '039_TheLifeandTimesofBenjaminFranklin.mp3', description: `Broadcasting live from a hot air balloon the boys discuss their guest's one act play, interview their intern, and moon people out of the hot air balloon to the tune of 90s house music. Sponsored by Pirate Zoo Crew Branded Jail Snacks & thewheeljobs.pizza`, published: "03/13/2018"},
+	{url: '040_RonnyandTheRowdyRompingBoys.mp3', description: `This weeks discussion centers on a dark, ultraviolent retelling of the classic Peter Pan tale, plus a visit from in house legal & the in house psych. Sponsored by Knuckleballers & Holonuts.`, published: "04/14/2018"},
+	{url: '041_MacDaddysWinter.mp3', description: `This week the boys discuss the latest in horror film sweeping the nation. Plus some hot celeb goss, a diss track, and life advice from ol' Handsy D. Sponsored by Warty Larry's Whimsical Wands & the Floridator.`, published: "05/09/2018"},
+	{url: '042_SiameseandMe.mp3', description: `In this episode we discuss Siamese and Me, the story of two siamese twins embroiled in the underworld of snuff films. Plus tunes from Bladieo Lab & some Hollywood truths from old Dirty D. Sponsored by Really Damn Solid Cologne & Flyin Freddy Fingers.`, published: "05/20/2018"},
+	{url: '043_AVeryHashtagBrandedWinterHolidayTelethon.mp3', description: `As part of our part to help with the ongoing Banana Blight, we discussed our favorite Christmas films of the year, plus a bit of Bladeio Lab & some words from our sponsors, Lyle Flannigan: Attorney At Law & the Bill and Melinda Gates Foundation Vaccine Drive to Cure Bannana Blight. `, published: "01/03/2021"},
 	// [new podcasts go here]
 ];
 const channel: PodcastChannel = {
