@@ -38,7 +38,7 @@
 			length="89608881" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Hell on Earth - Episode 10: A NEW GOD</guid>
-		<pubDate>Invalid Date</pubDate>
+		<pubDate>Thu, 26 May 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>5590.125714285714</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
@@ -63,7 +63,7 @@
 			length="83099584" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Hell on Earth - Episode 9: REBELLION</guid>
-		<pubDate>Thu, 25 May 2017 06:00:00 GMT</pubDate>
+		<pubDate>Thu, 25 May 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>5183.34693877551</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
@@ -88,7 +88,7 @@
 			length="64856083" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Hell on Earth - Episode 8: THE STATE</guid>
-		<pubDate>Thu, 18 May 2017 06:00:00 GMT</pubDate>
+		<pubDate>Thu, 18 May 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>4043.2326530612245</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
@@ -113,7 +113,7 @@
 			length="79611714" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Hell on Earth - Episode 7: HELL</guid>
-		<pubDate>Wed, 10 May 2017 06:00:00 GMT</pubDate>
+		<pubDate>Wed, 10 May 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>4965.355102040817</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
@@ -138,7 +138,7 @@
 			length="87094020" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Hell on Earth - Episode 6: THE NORTH</guid>
-		<pubDate>Wed, 03 May 2017 06:00:00 GMT</pubDate>
+		<pubDate>Wed, 03 May 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>5432.973061224489</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
@@ -163,7 +163,7 @@
 			length="69183214" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Hell on Earth - Episode 5: INTERVENTION</guid>
-		<pubDate>Wed, 26 Apr 2017 06:00:00 GMT</pubDate>
+		<pubDate>Wed, 26 Apr 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>4313.6522448979595</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
@@ -188,7 +188,7 @@
 			length="70301254" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Hell on Earth - Episode 4: WINDOWS</guid>
-		<pubDate>Thu, 20 Apr 2017 06:00:00 GMT</pubDate>
+		<pubDate>Thu, 20 Apr 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>4383.529795918367</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
@@ -213,7 +213,7 @@
 			length="61140715" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Hell on Earth - Episode 3: KINGS</guid>
-		<pubDate>Wed, 12 Apr 2017 06:00:00 GMT</pubDate>
+		<pubDate>Wed, 12 Apr 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>3811.0563265306123</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
@@ -222,8 +222,8 @@
 		<itunes:episode>2</itunes:episode>
 		<itunes:episodeType>full</itunes:episodeType>
 		<itunes:season>1</itunes:season>
-		<title>Death</title>		
-		<itunes:title>Death</itunes:title>
+		<title>Hell on Earth - Episode 2: DEATH</title>		
+		<itunes:title>Hell on Earth - Episode 2: DEATH</itunes:title>
 		<description>
 			<![CDATA[
 			
@@ -238,7 +238,7 @@
 			length="72855276" 
 			type="audio/mpeg"/>
 		<guid isPermaLink="false">Death</guid>
-		<pubDate>Wed, 05 Apr 2017 06:00:00 GMT</pubDate>
+		<pubDate>Wed, 05 Apr 2023 06:00:00 GMT</pubDate>
 		<itunes:duration>4543.137959183673</itunes:duration>		
 		<itunes:explicit>no</itunes:explicit>
 	</item>
