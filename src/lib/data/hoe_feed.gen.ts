@@ -82,7 +82,7 @@ const manifest: Array<Manifest> = [
 const channel: PodcastChannel = {
 	title: 'Hell On Earth',
 	url: 'https://www.12mod12.com/audio/hellonearth',
-	author: 'Matt Christman & Chris Wade',
+	author: 'Matt Christman and Chris Wade',
 	email: 'hellonearth@gmail.com',
 	albumImageURL: `${BUCKET}/albumart.jpg`,
 	description: `Hell on Earth tells the story of the Thirty Years War, the cataclysmic outbreak of violence in central Europe that lasted from 1618–1648. It’s the story of the long crisis of the 17th century, the birth of Protestantism and the collapse of Catholic Christendom, and ultimately, the gleaming T-800 Terminator skeleton of Capitalism emerging from the rotting corpse of Feudalism. It’s a story of lurid violence from a bygone age, of hot death on the battlefield, and cool intrigue in the palaces of Kings and Emperors. But it’s also the story of climate change, financial collapse, moral panics, speculative bubbles, pandemic, crisis in institutional legitimacy, of conspiracy theories driving policy, and an information revolution that changes the way everyday people relate to their political leaders. Sound familiar? This is the birth of modernity.`,
