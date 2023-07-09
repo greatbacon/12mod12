@@ -25,7 +25,7 @@
         </div>
 <div class="blog">
   <p>
-    There is no doubt that Twitter is collapsing. Millions of bytes have flowed over the last few weeks describing the chaos both on the platform and in the private domain of its offices. 
+    There is no doubt that Twitter is collapsing. Millions of bytes have flown over the last few weeks describing the chaos both on the platform and in the private domain of its offices. 
   </p>
   <p>
     Advertisers have pulled out, poorly thought out technical decisions have been made, hastily designed products have shipped, the majority of staff have either been fired or walked out the door, and the new owner and CEO is publicly melting down ON the platform for all the world to see. Some real grade A content if you will. The Adam McKay movie is writing itself.
@@ -53,10 +53,10 @@
     But in my experience I’ve found the whole system unintuitive and overwhelming despite the fact that I write software for a living. Where am I supposed to make an account? How do I make sure I’m in the same network as the funny people I was following on Twitter? Does anyone in this federation even live in my state?
   </p>
   <p>
-    The barrier to entry is too high and the core architecture of Fediverse software undermines the very reason Twitter was useful in the first place by fragmenting the social network right out of the gate. The replacement has to be centralized, it has to be the same place everyone agrees to show up. That’s how town squares work. 
+    The barrier to entry is too high and the core architecture of Fediverse software fragments the new social network right out of the gate, undermining the very reason Twitter was useful in the first place. The replacement has to be centralized, it has to be the same place everyone agrees to show up. That’s how town squares work. 
   </p>
   <p>
-    Another consideration for this future digital town square should be democratic controls baked into it from the start. This should keep any one particular petulant owner from taking control of the whole thing. This is ostensibly the purpose of federation in Mastadon, but I’m talking about even lower level controls. Elected moderators to patrol the space and ways to debate and decide the rules that govern the space. Baked in polls for voting on anything from names to new channels to modifying community guidelines. Focus on democratically controlling a single instance from within its own framework before jumping straight to federation.
+    Another consideration for this future digital town square should be democratic controls baked into it from the start. The goal here is to keep any one particular petulant owner from taking control of the whole thing. This is ostensibly the purpose of federation in Mastadon, but I’m talking about even lower level controls. Elected moderators to patrol the space and ways to debate and decide the rules that govern the space. Baked in polls for voting on anything from names to new channels to modifying community guidelines. Focus on democratically controlling a single instance from within its own framework before jumping straight to federation.
   </p>
   <p>
     Lastly, just like how a good tax base helps keep public places clean and maintained, this theoretical future platform would need some mechanism for collecting monetary support from its users, instead of an ad driven model. Ad driven platforms will always be forced to sacrifice the user experience for driving advertiser metrics.
