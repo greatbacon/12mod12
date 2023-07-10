@@ -56,7 +56,7 @@
     The barrier to entry is too high and the core architecture of Fediverse software fragments the new social network right out of the gate, undermining the very reason Twitter was useful in the first place. The replacement has to be centralized, it has to be the same place everyone agrees to show up. That’s how town squares work. 
   </p>
   <p>
-    Another consideration for this future digital town square should be democratic controls baked into it from the start. The goal here is to keep any one particular petulant owner from taking control of the whole thing. This is ostensibly the purpose of federation in Mastadon, but I’m talking about even lower level controls. Elected moderators to patrol the space and ways to debate and decide the rules that govern the space. Baked in polls for voting on anything from names to new channels to modifying community guidelines. Focus on democratically controlling a single instance from within its own framework before jumping straight to federation.
+    Another consideration for this future digital town square should be democratic controls baked into it from the start. The goal here is to keep any one particular petulant owner from taking control of the whole thing. This is ostensibly the purpose of federation in Mastodon, but I’m talking about even lower level controls. Elected moderators to patrol the space and ways to debate and decide the rules that govern the space. Baked in polls for voting on anything from names to new channels to modifying community guidelines. Focus on democratically controlling a single instance from within its own framework before jumping straight to federation.
   </p>
   <p>
     Lastly, just like how a good tax base helps keep public places clean and maintained, this theoretical future platform would need some mechanism for collecting monetary support from its users, instead of an ad driven model. Ad driven platforms will always be forced to sacrifice the user experience for driving advertiser metrics.
@@ -77,11 +77,6 @@
     font-size: 2em;
   }
 
-  .logo {
-    display: block;
-    padding-left: 30%;
-  }
-
 div.brief {		
 	padding-top: 1%;
 	padding-bottom: 1%;	
@@ -90,29 +85,6 @@ div.brief {
 	overflow:auto;
 	border-bottom-style: dotted;
 	border-color: #00ff00;
-}
-
-div.no_image_brief {		
-	padding-top: 1%;
-	padding-bottom: 1%;	
-	padding-left: 5%;
-	padding-right: 5%;
-	overflow:auto;
-	border-bottom-style: dotted;
-	border-color: #00ff00;
-	text-align: center;  
-}
-
-div.brief_thumbnail{
-	float: left;  
-}
-
-img.brief_thumbnail{
-	float: left;
-  height: auto; 
-  width: auto; 
-  max-width: 300px; 
-  max-height: 300px;
 }
 
 div.brief_title span{
@@ -127,18 +99,6 @@ div.brief_subtitle span{
 }
 
 div.brief_workcycle span{
-	font-size: 2em;
-	padding-left: 1%;
-}
-
-div.brief_description {  
-	font-family: 'times-new-roman';
-	color: #ffffff;	
-	padding-left: 1%;
-	display: flex;
-}
-
-div.brief_link a{
 	font-size: 2em;
 	padding-left: 1%;
 }

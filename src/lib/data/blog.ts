@@ -7,4 +7,11 @@ export const writing = [
     "wrapped":null,    
     "link":"/blog/0",
   },
+  {
+    "title":"Currency of Politics is a well-researched and informative history of money and the (non)politics that govern it.",    
+    "content":" I think money is fascinating. A physical, malleable thing held in your hands. Taking on the form of bills & coins, which themselves carry heavy artistic and symbolic representations of the societies that made them.  And yet here in the 21st century, the abstract nature of money...",
+    "start":"2023-07-09",
+    "wrapped":null,    
+    "link":"/blog/1",
+  },
   ]

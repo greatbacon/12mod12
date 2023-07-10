@@ -8,12 +8,13 @@ export const about = [
             
     <br><br>In his free time he also enjoys writing all manner of things and producing podcasts.  While currently no more than a hobby he feels it helps enhance his capacity for clear and coherent communication in all aspects of his life.
 
-    <br><br>In the beginning of 2021 Hamilton quit his job to work fulltime on a new type of collaborative social media platform, called Felt.
+    <br><br>In the beginning of 2021 Hamilton quit his job to work full time on a new programmable web platform, called <a href="https://felt.dev">Felt</a>.
             
     <br><br><a class="links" href="https://www.felt.social/">FELT</a>
     <br><br><a class="links" href="https://github.com/greatbacon">GITHUB</a>
-    <br><br><a class="links" href="https://twitter.com/greatbaconbits">TWITTER</a>`,
-    
+    <br><br><a class="links" href="https://hachyderm.io/@greatbacon">MASTODON</a>    
+    <br><br><a class="links" href="https://twitter.com/greatbaconbits">TWITTER</a>        
+    `,  
     start: '2012-08-19',
     wrapped: null,
     thumbnail: '/portfolio/img/headshot.jpg'

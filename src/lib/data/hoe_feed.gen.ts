@@ -75,7 +75,7 @@ const manifest: Array<Manifest> = [
 	Commonwealth, Restoration, Glorious Revolution: we complete England’s cycle of political instability and, with a little help from our old friends the Dutch, birth a new order into the world.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`,
+	`, published: "05/26/2017"
 	}
 	//new episodes go here
 ];

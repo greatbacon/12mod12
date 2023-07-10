@@ -1,6 +1,8 @@
 <script lang="ts">
 	import {writing} from '$lib/data/blog';	
-	import Header from '$lib/ui/Header.svelte';    
+	import Header from '$lib/ui/Header.svelte'; 
+	
+	const feed = writing.reverse();
 </script>
 
 <Header title="BLOG" />
@@ -10,7 +12,7 @@
 				<div class="brief">
           {#if blurb.thumbnail}
           <div class="brief_thumbnail">
-            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank image for writing">
+            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank profile for writing">
           </div>
           {/if}
           <div class="brief_title">
@@ -47,17 +49,6 @@ div.brief {
 	overflow:auto;
 	border-bottom-style: dotted;
 	border-color: #00ff00;
-}
-
-div.no_image_brief {		
-	padding-top: 1%;
-	padding-bottom: 1%;	
-	padding-left: 5%;
-	padding-right: 5%;
-	overflow:auto;
-	border-bottom-style: dotted;
-	border-color: #00ff00;
-	text-align: center;
 }
 
 div.brief_thumbnail{

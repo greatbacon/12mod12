@@ -9,7 +9,7 @@
 	{#each code as blurb, i}					
 				<div class="brief">
           <div class="brief_thumbnail">
-            <img src="{blurb.thumbnail}" alt="The code project image">
+            <img src="{blurb.thumbnail}" alt="The code project thumbnail">
           </div>
           <div class="brief_title">
             <span>{blurb.title}
@@ -41,17 +41,6 @@ div.brief {
 	border-color: #00ff00;
 }
 
-div.no_image_brief {		
-	padding-top: 1%;
-	padding-bottom: 1%;	
-	padding-left: 5%;
-	padding-right: 5%;
-	overflow:auto;
-	border-bottom-style: dotted;
-	border-color: #00ff00;
-	text-align: center;
-}
-
 div.brief_thumbnail{
 	float: left;
 }
@@ -62,25 +51,8 @@ div.brief_title span{
 	padding-left: 1%;
 }
 
-div.brief_subtitle span{
-	padding-left: 1%;
-}
-
 div.brief_workcycle span{
 	font-size: 2em;
-	padding-left: 1%;
-}
-
-div.brief_description span{
-	font-family: 'times-new-roman';
-	color: #ffffff;	
-	padding-left: 1%;
-	display: flex;
-}
-
-div.brief_description span{
-	font-family: 'times-new-roman';
-	color: #ffffff;	
 	padding-left: 1%;
 }
 
