@@ -270,5 +270,9 @@ export const quotes = [
 	{
 		author: 'Marcus Aurelius',
 		text: 'Look back over the past, with its changing empires that rose and fell, and you can foresee the future too.'
+	},
+	{
+		author: 'James Madison',
+		text: 'The means of defence against foreign danger have been always the instruments of tyranny at home.'
 	}
 ];
