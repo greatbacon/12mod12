@@ -6,7 +6,7 @@
 <Header title="CODE" />
 
 <main class="content">  
-	{#each code as blurb}					
+	{#each code as blurb, i}					
 				<div class="brief">
           <div class="brief_thumbnail">
             <img src="{blurb.thumbnail}" alt="The code project thumbnail">

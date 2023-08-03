@@ -1,6 +1,4 @@
-import type { Quote } from "$lib/website";
-
-export const quotes: Array<Quote> = [
+export const quotes = [
 	{
 		author: 'David Wheeler',
 		text: 'All problems in computer science can be solved by another level of abstraction, except of course for the problem of too many abstractions',

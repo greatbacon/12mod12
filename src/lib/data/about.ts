@@ -1,6 +1,4 @@
-import type {Blurb} from '$lib/website'
-
-export const about: Array<Blurb> =  [
+export const about = [
   {
     title: 'Hamilton J Reed',
     subtitle: 'Maintaining this website since...',
@@ -17,7 +15,8 @@ export const about: Array<Blurb> =  [
     <br><br><a class="links" href="https://hachyderm.io/@greatbacon">MASTODON</a>    
     <br><br><a class="links" href="https://twitter.com/greatbaconbits">TWITTER</a>        
     `,  
-    start: '2012-08-19',    
+    start: '2012-08-19',
+    wrapped: null,
     thumbnail: '/portfolio/img/headshot.jpg'
   },
 ]
