@@ -6,16 +6,16 @@
 	const index = title.length;
 
 
-	let interval;
+	let interval: string | number | NodeJS.Timeout | undefined;
 
 	onMount(() => {				
 		interval = setInterval(() => {
 			let elem = document.getElementById('text_header');								
-			let root = elem.innerHTML.substring(0,index);						
-			if (elem.innerHTML == root + '_') {
-				elem.innerHTML = root + '&nbsp;';				
+			let root = elem!.innerHTML.substring(0,index);						
+			if (elem!.innerHTML == root + '_') {
+				elem!.innerHTML = root + '&nbsp;';				
 			} else {
-				elem.innerHTML = root + '_';				
+				elem!.innerHTML = root + '_';				
 			}
 		}, 500);		
 	});

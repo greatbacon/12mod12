@@ -1,4 +1,4 @@
-import type {Gen} from '@feltcoop/gro';
+import type {Gen} from '@feltjs/gro';
 
 import {
 	DEFAULT_CACHED_FEED_DATA,
@@ -9,7 +9,7 @@ import {
 	type CachedFeedData,
 	type PodcastChannel,
 } from '$lib/podcast';
-import type {Filesystem} from '@feltcoop/gro/dist/fs/filesystem';
+import type {Filesystem} from '@feltjs/gro/dist/fs/filesystem';
 
 /*
 This gen file outputs two files, `src/lib/feed.json` and `src/static/hzc/rss.xml`.

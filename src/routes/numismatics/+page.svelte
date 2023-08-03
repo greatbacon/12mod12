@@ -10,7 +10,7 @@
 <Header title="NUMISMATICS" />
 
 <main class="content">  
-	{#each monies as money, i}					
+	{#each monies as money}					
 				<div class="brief">          
           <div class="brief_thumbnail">
             <img class="brief_thumbnail" src="{money.obverse}" alt="Blank of money obverse"><img class="brief_thumbnail" src="{money.reverse}" alt="Blank of money reverse">

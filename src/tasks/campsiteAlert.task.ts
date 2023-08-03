@@ -1,4 +1,4 @@
-import type {Task} from '@feltcoop/gro';
+import type {Task} from '@feltjs/gro';
 import fs from 'fs';
 
 //TODO LIST

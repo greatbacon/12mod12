@@ -1,18 +1,16 @@
 <script lang="ts">
-	import {writing} from '$lib/data/blog';	
-	import Header from '$lib/ui/Header.svelte'; 
-	
-	const feed = writing.reverse();
+	import {about} from '$lib/data/about';	
+	import Header from '$lib/ui/Header.svelte';    
 </script>
 
-<Header title="BLOG" />
+<Header title="ABOUT" />
 
 <main class="content">  
-	{#each writing as blurb, i}					
+	{#each about as blurb}					
 				<div class="brief">
           {#if blurb.thumbnail}
           <div class="brief_thumbnail">
-            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank profile for writing">
+            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank thumbnail for about">
           </div>
           {/if}
           <div class="brief_title">
@@ -31,11 +29,6 @@
           <div class="brief_description">              						
             {@html blurb.content}
           </div>
-          {#if blurb.link}          
-          <div class="brief_link">
-            <a href="{blurb.link}">Read Here ==></a>
-          </div>          
-          {/if}
         </div>
 	{/each}
 </main>
@@ -52,15 +45,15 @@ div.brief {
 }
 
 div.brief_thumbnail{
-	float: left;
+	float: left;  
 }
 
 img.brief_thumbnail{
 	float: left;
   height: auto; 
   width: auto; 
-  max-width: 150px; 
-  max-height: 150px;
+  max-width: 300px; 
+  max-height: 300px;
 }
 
 div.brief_title span{

@@ -2,7 +2,7 @@
 	import {writing} from '$lib/data/blog';	
 	import Header from '$lib/ui/Header.svelte';    
 
-  const blurb = writing[0];
+  const blurb = writing[1];
 </script>
 
 <Header title="BLOG" />

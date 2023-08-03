@@ -1,16 +1,16 @@
 <script lang="ts">
-	import {audio} from '$lib/data/audio';	
+	import {writing} from '$lib/data/writing';	
 	import Header from '$lib/ui/Header.svelte';    
 </script>
 
-<Header title="AUDIO" />
+<Header title="WRITING" />
 
 <main class="content">  
-	{#each audio as blurb, i}					
+	{#each writing as blurb}					
 				<div class="brief">
           {#if blurb.thumbnail}
           <div class="brief_thumbnail">
-            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank thumbnail for audio">
+            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank thumbnail for writing">
           </div>
           {/if}
           <div class="brief_title">
@@ -49,16 +49,16 @@ div.brief {
 	border-color: #00ff00;
 }
 
+div.brief_thumbnail{
+	float: left;
+}
+
 img.brief_thumbnail{
 	float: left;
   height: auto; 
   width: auto; 
-  max-width: 166px; 
-  max-height: 166px;
-}
-
-div.brief_thumbnail{
-	float: left;
+  max-width: 150px; 
+  max-height: 150px;
 }
 
 div.brief_title span{

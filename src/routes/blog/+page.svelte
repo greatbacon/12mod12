@@ -1,16 +1,16 @@
 <script lang="ts">
-	import {about} from '$lib/data/about';	
-	import Header from '$lib/ui/Header.svelte';    
+	import {writing} from '$lib/data/blog';	
+	import Header from '$lib/ui/Header.svelte'; 	
 </script>
 
-<Header title="ABOUT" />
+<Header title="BLOG" />
 
 <main class="content">  
-	{#each about as blurb, i}					
+	{#each writing as blurb}					
 				<div class="brief">
           {#if blurb.thumbnail}
           <div class="brief_thumbnail">
-            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank thumbnail for about">
+            <img class="brief_thumbnail" src="{blurb.thumbnail}" alt="Blank profile for writing">
           </div>
           {/if}
           <div class="brief_title">
@@ -31,7 +31,7 @@
           </div>
           {#if blurb.link}          
           <div class="brief_link">
-            <a href="{blurb.link}" target="_blank" rel="noopener noreferrer">Learn More ==></a>
+            <a href="{blurb.link}">Read Here ==></a>
           </div>          
           {/if}
         </div>
@@ -50,15 +50,15 @@ div.brief {
 }
 
 div.brief_thumbnail{
-	float: left;  
+	float: left;
 }
 
 img.brief_thumbnail{
 	float: left;
   height: auto; 
   width: auto; 
-  max-width: 300px; 
-  max-height: 300px;
+  max-width: 150px; 
+  max-height: 150px;
 }
 
 div.brief_title span{
