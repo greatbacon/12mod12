@@ -77,9 +77,4 @@ div.brief_description {
 	padding-left: 1%;
 	display: flex;
 }
-
-div.brief_link a{
-	font-size: 2em;
-	padding-left: 1%;
-}
 </style>
