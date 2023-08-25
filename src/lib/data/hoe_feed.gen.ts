@@ -1,9 +1,9 @@
 import type {Gen} from '@feltjs/gro';
 
+import type {Manifest} from '$lib/podcast';
 import {
 	DEFAULT_CACHED_FEED_DATA,
 	loadEpisodes,
-	Manifest,
 	mergeEpisodes,
 	toPodcastXml,
 	type CachedFeedData,
@@ -24,59 +24,98 @@ and the JSON is then locally cached and checked into source control.
 const BUCKET = 'http://magi.12mod12.com/hoe';
 const toRemoteUrl = (filename: string): string => `${BUCKET}/${filename}`;
 const manifest: Array<Manifest> = [
-	{url: '001_GOD.mp3', description: `
+	{
+		url: '001_GOD.mp3',
+		description: `
 	A man, a hammer, a nail, a door, history. Martin Luther sets off the protestant reformation and lays the groundwork for a century of violence in Europe.
 
 	This first episode of Hell on Earth: The Thirty Years War and the Violent Birth Capitalism is available for free. Subsequent episodes will be released exclusively for Chapo Trap House subscribers on Patreon at patreon.com/chapotraphouse.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "01/1/2023"},
-  {url: '002_DEATH.mp3', description: `
+	`,
+		published: '01/1/2023',
+	},
+	{
+		url: '002_DEATH.mp3',
+		description: `
 	The Black Death, the rise of the Habsburgs, and the dream of the Universal Monarch.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "04/05/2017"},
-  {url: '003_KINGS.mp3', description: `
+	`,
+		published: '04/05/2017',
+	},
+	{
+		url: '003_KINGS.mp3',
+		description: `
 	The royal dynasties of Europe strain to confront reformation, centralization and modernization in their own distinct ways as we bring them up to the eve of the Thirty Years War.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "04/12/2017"},
-  {url: '004_WINDOWS.mp3', description: `
+	`,
+		published: '04/12/2017',
+	},
+	{
+		url: '004_WINDOWS.mp3',
+		description: `
 	Dynastic ambitions, messianic delusions and One High Fall topple the Holy Roman Empire into war.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "04/20/2017"},
-  {url: '005_INTERVENTION.mp3', description: `
+	`,
+		published: '04/20/2017',
+	},
+	{
+		url: '005_INTERVENTION.mp3',
+		description: `
 	The Danes stage a daring intervention against the Habsburgs. Enter: Wallenstein & Richelieu.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "04/26/2017"},
-  {url: '006_THE NORTH.mp3', description: `
+	`,
+		published: '04/26/2017',
+	},
+	{
+		url: '006_THE NORTH.mp3',
+		description: `
 	King Gustavus Adolphus brings the seemingly unstoppable power of Sweden crashing through central Germany.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "05/03/2017"},
-  {url: '007_HELL.mp3', description: `
+	`,
+		published: '05/03/2017',
+	},
+	{
+		url: '007_HELL.mp3',
+		description: `
 	The apocalyptic effects of years of war on the population transform central Europe into Hell on Earth.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "05/10/2017"},
-  {url: '008_THE STATE.mp3', description: `
+	`,
+		published: '05/10/2017',
+	},
+	{
+		url: '008_THE STATE.mp3',
+		description: `
 	The Peace of Westphalia concludes the war and introduces a new phase of political and economic conflict to Europe.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "05/18/2017"},
-  {url: '009_REBELLION.mp3', description: `
+	`,
+		published: '05/18/2017',
+	},
+	{
+		url: '009_REBELLION.mp3',
+		description: `
 	While the Thirty Years War rages on, in England, a similar set of crises leads to Civil War.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "05/25/2017"},
-  {url: '010_A NEW GOD.mp3', description: `
+	`,
+		published: '05/25/2017',
+	},
+	{
+		url: '010_A NEW GOD.mp3',
+		description: `
 	Commonwealth, Restoration, Glorious Revolution: we complete England’s cycle of political instability and, with a little help from our old friends the Dutch, birth a new order into the world.
 
 	Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
-	`, published: "05/26/2017"
-	}
+	`,
+		published: '05/26/2017',
+	},
 	//new episodes go here
 ];
 const channel: PodcastChannel = {
@@ -99,7 +138,7 @@ const RSS_FEED_FILE_RELATIVE_PATH = `../../static/audio/hellonearth/rss.xml`;
 // Outputs a file with event types that can be imported from anywhere with no runtime cost.
 export const gen: Gen = async ({fs, log}) => {
 	const existingCachedFeedData = await loadCachedFeedData(fs, CACHED_FEED_PATH_ROOT_PATH);
-	manifest.forEach((f) => f.url = toRemoteUrl(f.url));
+	manifest.forEach((f) => (f.url = toRemoteUrl(f.url)));
 	const uncachedEpisodeManifests = manifest.filter(
 		(u) => !existingCachedFeedData.episodes.find((e) => e.fileLocation === u.url),
 	);
