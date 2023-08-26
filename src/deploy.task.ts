@@ -1,6 +1,6 @@
-import type {Task} from '@feltcoop/gro';
-import {spawn} from '@feltcoop/felt/util/process.js';
-import {DIST_DIRNAME} from '@feltcoop/gro/dist/paths.js';
+import type {Task} from '@feltjs/gro';
+import {spawn} from '@feltjs/util/process.js';
+import {DIST_DIRNAME} from '@feltjs/gro/dist/paths.js';
 
 const STATIC_REPO = '../greatbacon.github.io';
 
