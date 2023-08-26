@@ -10,7 +10,7 @@ export const task: Task = {
 	run: async ({invokeTask}) => {
 		await invokeTask('clean');
 		await invokeTask('build');
-		let timestamp = Date.now();
+		const timestamp = Date.now();
 
 		await spawn('git', [`-C`, `${STATIC_REPO}`, `pull`]);
 		await spawn('cp', [`-r`, `${DIST_DIRNAME}/svelte-kit/.`, `${STATIC_REPO}`]);

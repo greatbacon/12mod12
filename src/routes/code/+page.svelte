@@ -22,6 +22,7 @@
 			</div>
 			<div class="brief_description">
 				<br />
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 				{@html blurb.content}
 			</div>
 			<div class="brief_link">

@@ -23,7 +23,7 @@ and the JSON is then locally cached and checked into source control.
 // TODO move this stuff to a configuration file or something
 const BUCKET = 'http://magi.12mod12.com/hoe';
 const toRemoteUrl = (filename: string): string => `${BUCKET}/${filename}`;
-const manifest: Array<Manifest> = [
+const manifest: Manifest[] = [
 	{
 		url: '001_GOD.mp3',
 		description: `

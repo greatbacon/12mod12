@@ -1,6 +1,6 @@
 import type {Blurb} from '$lib/website';
 
-export const audio: Array<Blurb> = [
+export const audio: Blurb[] = [
 	{
 		title: 'Hollywood Zoo Crew',
 		subtitle: 'an improv comedy podcast',

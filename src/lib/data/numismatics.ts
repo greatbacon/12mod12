@@ -97,7 +97,7 @@ export const monies = [
 		obverse: '/numismatics-img/usd/usd_2dollar_obverse.jpg',
 		reverse: '/numismatics-img/usd/usd_2dollar_reverse.jpg',
 		name: 'United States Federal Reserve Note two-dollar bill',
-		code: codes[`USD`],
+		code: codes.USD,
 		issued: 1976,
 		value: 2,
 		description:
@@ -108,7 +108,7 @@ export const monies = [
 		obverse: '/numismatics-img/usd/usd_bicentennial_quarter_obverse.png',
 		reverse: '/numismatics-img/usd/usd_bicentennial_quarter_reverse.png',
 		name: 'United States Bicentennial Washington quarter coin',
-		code: codes[`USD`],
+		code: codes.USD,
 		issued: 1976,
 		value: 0.25,
 		description:
@@ -119,7 +119,7 @@ export const monies = [
 		obverse: '/numismatics-img/usd/usd_atb_arches_obverse.png',
 		reverse: '/numismatics-img/usd/usd_atb_arches_reverse.png',
 		name: 'United States America the Beautiful Utah Washington quarter coin',
-		code: codes[`USD`],
+		code: codes.USD,
 		issued: 2014,
 		value: 0.25,
 		description:
@@ -130,7 +130,7 @@ export const monies = [
 		obverse: '/numismatics-img/usd/usd_atb_dunes_obverse.png',
 		reverse: '/numismatics-img/usd/usd_atb_dunes_reverse.png',
 		name: 'United States America the Beautiful Colorado Washington quarter coin',
-		code: codes[`USD`],
+		code: codes.USD,
 		issued: 2014,
 		value: 0.25,
 		description:
@@ -141,7 +141,7 @@ export const monies = [
 		obverse: '/numismatics-img/usd/usd_sba_obverse.png',
 		reverse: '/numismatics-img/usd/usd_sba_reverse.png',
 		name: 'United States Susan B. Anthony dollar coin',
-		code: codes[`USD`],
+		code: codes.USD,
 		issued: 1979,
 		value: 1,
 		description:
@@ -152,7 +152,7 @@ export const monies = [
 		obverse: '/numismatics-img/usd/usd_wheatpenny_obverse.png',
 		reverse: '/numismatics-img/usd/usd_wheatpenny_reverse.png',
 		name: 'United States Lincoln Wheat cent',
-		code: codes[`USD`],
+		code: codes.USD,
 		issued: 1956,
 		value: 0.01,
 		description:
@@ -163,7 +163,7 @@ export const monies = [
 		obverse: '/numismatics-img/ars/argentine_25centavos_obverse.png',
 		reverse: '/numismatics-img/ars/argentine_25centavos_reverse.png',
 		name: 'Argentine 25 centavos coin',
-		code: codes[`ARS`],
+		code: codes.ARS,
 		issued: 1994,
 		value: 0.25,
 		description:
@@ -174,7 +174,7 @@ export const monies = [
 		obverse: '/numismatics-img/brc/brazilian_cruzado_obverse.png',
 		reverse: '/numismatics-img/brc/brazilian_cruzado_reverse.png',
 		name: 'Brazillian 1 cruzado coin',
-		code: codes[`BRC`],
+		code: codes.BRC,
 		issued: 1986,
 		value: 1,
 		description:
@@ -185,7 +185,7 @@ export const monies = [
 		obverse: '/numismatics-img/clp/chilean_10peso_obverse.png',
 		reverse: '/numismatics-img/clp/chilean_10peso_reverse.png',
 		name: 'Chilean 10 peso coin',
-		code: codes[`CLP`],
+		code: codes.CLP,
 		issued: 1982,
 		value: 10,
 		description:
@@ -196,7 +196,7 @@ export const monies = [
 		obverse: '/numismatics-img/mxn/mexican_10centavos_obverse.png',
 		reverse: '/numismatics-img/mxn/mexican_10centavos_reverse.png',
 		name: 'Mexican 10 centavos coin',
-		code: codes[`MXN`],
+		code: codes.MXN,
 		issued: 1959,
 		value: 0.1,
 		description:
@@ -207,7 +207,7 @@ export const monies = [
 		obverse: '/numismatics-img/mxn/mexican_peso_series_aa_obverse.png',
 		reverse: '/numismatics-img/mxn/mexican_peso_series_aa_reverse.png',
 		name: 'Mexican Series AA 1 peso bill',
-		code: codes[`MXN`],
+		code: codes.MXN,
 		issued: 1967,
 		value: 1,
 		description:
@@ -218,7 +218,7 @@ export const monies = [
 		obverse: '/numismatics-img/cdf/congolese_franc_50centimes_obverse.png',
 		reverse: '/numismatics-img/cdf/congolese_franc_50centimes_reverse.png',
 		name: 'Non-circulating Congolese 50 centimes franc coin',
-		code: codes[`CDF`],
+		code: codes.CDF,
 		issued: 2002,
 		value: 0.5,
 		description:
@@ -229,7 +229,7 @@ export const monies = [
 		obverse: '/numismatics-img/czk/czech_2crown_obverse.png',
 		reverse: '/numismatics-img/czk/czech_2crown_reverse.png',
 		name: 'Czech 2 koruna coin',
-		code: codes[`CZK`],
+		code: codes.CZK,
 		issued: 2011,
 		value: 2,
 		description:
@@ -240,7 +240,7 @@ export const monies = [
 		obverse: '/numismatics-img/dem/5deutchemark_obverse.png',
 		reverse: '/numismatics-img/dem/5deutchemark_reverse.png',
 		name: '5 Deutschmark coin',
-		code: codes[`DEM`],
+		code: codes.DEM,
 		issued: 1992,
 		value: 5,
 		description:
@@ -251,7 +251,7 @@ export const monies = [
 		obverse: '/numismatics-img/frf/2french_franc_obverse.png',
 		reverse: '/numismatics-img/frf/2french_franc_reverse.png',
 		name: 'French 2 franc coin',
-		code: codes[`FRF`],
+		code: codes.FRF,
 		issued: 1993,
 		value: 2,
 		description:
@@ -262,7 +262,7 @@ export const monies = [
 		obverse: '/numismatics-img/xxx/kangxi_tongbao_coin_obverse.png',
 		reverse: '/numismatics-img/xxx/kangxi_tongbao_coin_reverse.png',
 		name: 'Kangxi Tongbao reproduction coin',
-		code: codes[`XXX`],
+		code: codes.XXX,
 		issued: '???',
 		value: '???',
 		description:
@@ -273,7 +273,7 @@ export const monies = [
 		obverse: '/numismatics-img/cad/canadian_cent_obverse.png',
 		reverse: '/numismatics-img/cad/canadian_cent_reverse.png',
 		name: 'Canadian penny',
-		code: codes[`CAD`],
+		code: codes.CAD,
 		issued: 1997,
 		value: 0.01,
 		description:
@@ -284,7 +284,7 @@ export const monies = [
 		obverse: '/numismatics-img/cad/canadian_nickel_obverse.png',
 		reverse: '/numismatics-img/cad/canadian_nickel_reverse.png',
 		name: 'Canadian nickel',
-		code: codes[`CAD`],
+		code: codes.CAD,
 		issued: 2010,
 		value: 0.05,
 		description:
@@ -295,7 +295,7 @@ export const monies = [
 		obverse: '/numismatics-img/cad/canadian_dime_obverse.png',
 		reverse: '/numismatics-img/cad/canadian_dime_reverse.png',
 		name: 'Canadian dime',
-		code: codes[`CAD`],
+		code: codes.CAD,
 		issued: 1974,
 		value: 0.1,
 		description:
@@ -306,7 +306,7 @@ export const monies = [
 		obverse: '/numismatics-img/cad/canadian_quarter_obverse.png',
 		reverse: '/numismatics-img/cad/canadian_quarter_reverse.png',
 		name: 'Canadian quarter',
-		code: codes[`CAD`],
+		code: codes.CAD,
 		issued: 1974,
 		value: 0.25,
 		description:
@@ -317,7 +317,7 @@ export const monies = [
 		obverse: '/numismatics-img/eur/euro_eire_1cent_obverse.png',
 		reverse: '/numismatics-img/eur/euro_eire_1cent_reverse.png',
 		name: 'Euro Irish 1 cent coin',
-		code: codes[`EUR`],
+		code: codes.EUR,
 		issued: 2011,
 		value: 0.01,
 		description:
@@ -328,7 +328,7 @@ export const monies = [
 		obverse: '/numismatics-img/eur/euro_5cent_obverse.png',
 		reverse: '/numismatics-img/eur/euro_5cent_reverse.png',
 		name: 'Euro Dutch 5 cent coin',
-		code: codes[`EUR`],
+		code: codes.EUR,
 		issued: 2001,
 		value: 0.05,
 		description:
@@ -339,7 +339,7 @@ export const monies = [
 		obverse: '/numismatics-img/eur/euro_10cent_obverse.png',
 		reverse: '/numismatics-img/eur/euro_10cent_reverse.png',
 		name: 'Euro Spanish 10 cent coin',
-		code: codes[`EUR`],
+		code: codes.EUR,
 		issued: 2005,
 		value: 0.1,
 		description:
@@ -350,7 +350,7 @@ export const monies = [
 		obverse: '/numismatics-img/eur/euro_20cent_obverse.png',
 		reverse: '/numismatics-img/eur/euro_20cent_reverse.png',
 		name: 'Euro Austrian 20 cent coin',
-		code: codes[`EUR`],
+		code: codes.EUR,
 		issued: 2004,
 		value: 0.2,
 		description:
@@ -361,7 +361,7 @@ export const monies = [
 		obverse: '/numismatics-img/eur/euro_50cent_obverse.png',
 		reverse: '/numismatics-img/eur/euro_50cent_reverse.png',
 		name: 'Euro French 50 cent coin',
-		code: codes[`EUR`],
+		code: codes.EUR,
 		issued: 1999,
 		value: 0.5,
 		description:
@@ -372,7 +372,7 @@ export const monies = [
 		obverse: '/numismatics-img/eur/1_euro_obverse.png',
 		reverse: '/numismatics-img/eur/1_euro_reverse.png',
 		name: 'Greek 1 Euro coin',
-		code: codes[`EUR`],
+		code: codes.EUR,
 		issued: 2002,
 		value: 1,
 		description:
@@ -383,7 +383,7 @@ export const monies = [
 		obverse: '/numismatics-img/gbp/1_penny_obverse.png',
 		reverse: '/numismatics-img/gbp/1_penny_reverse.png',
 		name: 'British penny coin',
-		code: codes[`GBP`],
+		code: codes.GBP,
 		issued: 2009,
 		value: 0.01,
 		description:
@@ -394,7 +394,7 @@ export const monies = [
 		obverse: '/numismatics-img/gbp/5_pence_obverse.png',
 		reverse: '/numismatics-img/gbp/5_pence_reverse.png',
 		name: 'British five pence coin',
-		code: codes[`GBP`],
+		code: codes.GBP,
 		issued: 2012,
 		value: 0.05,
 		description:
@@ -405,7 +405,7 @@ export const monies = [
 		obverse: '/numismatics-img/gbp/10_pence_obverse.png',
 		reverse: '/numismatics-img/gbp/10_pence_reverse.png',
 		name: 'British ten pence coin',
-		code: codes[`GBP`],
+		code: codes.GBP,
 		issued: 2010,
 		value: 0.1,
 		description:
@@ -416,7 +416,7 @@ export const monies = [
 		obverse: '/numismatics-img/gbp/20_pence_obverse.png',
 		reverse: '/numismatics-img/gbp/20_pence_reverse.png',
 		name: 'British twenty pence coin',
-		code: codes[`GBP`],
+		code: codes.GBP,
 		issued: 2009,
 		value: 0.2,
 		description:
@@ -427,7 +427,7 @@ export const monies = [
 		obverse: '/numismatics-img/gbp/1_pound_coin_obverse.png',
 		reverse: '/numismatics-img/gbp/1_pound_coin_reverse.png',
 		name: 'British 1 pound coin',
-		code: codes[`GBP`],
+		code: codes.GBP,
 		issued: 2012,
 		value: 1,
 		description:

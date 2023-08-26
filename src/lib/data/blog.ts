@@ -1,6 +1,6 @@
 import type {Blurb} from '$lib/website';
 
-export const writing: Array<Blurb> = [
+export const writing: Blurb[] = [
 	{
 		title:
 			'Currency of Politics is a well-researched and informative history of money and the (non)politics that govern it.',

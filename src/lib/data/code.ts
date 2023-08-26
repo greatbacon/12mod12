@@ -1,6 +1,6 @@
 import type {Blurb} from '$lib/website';
 
-export const code: Array<Blurb> = [
+export const code: Blurb[] = [
 	{
 		title: 'Felt Coop',
 		content: `In the winter of 2020 I began coversations about a new software & business project with my business partner <a href="https://ryanatkn.com">Ryan</a>.     

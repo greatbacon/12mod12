@@ -1,6 +1,6 @@
 import type {Blurb} from '$lib/website';
 
-export const about: Array<Blurb> = [
+export const about: Blurb[] = [
 	{
 		title: 'Hamilton J Reed',
 		subtitle: 'Maintaining this website since...',

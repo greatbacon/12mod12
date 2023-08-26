@@ -28,6 +28,7 @@
 				</span>
 			</div>
 			<div class="brief_description">
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 				{@html blurb.content}
 			</div>
 		</div>

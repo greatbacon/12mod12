@@ -1,6 +1,6 @@
 import type {Blurb} from '$lib/website';
 
-export const writing: Array<Blurb> = [
+export const writing: Blurb[] = [
 	{
 		title: 'Spirits of the Eastern Vale',
 		content:

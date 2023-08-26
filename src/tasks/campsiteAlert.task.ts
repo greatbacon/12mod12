@@ -62,7 +62,7 @@ export const task: Task = {
 		const previous = JSON.parse(readFileSync(OUTPUT, 'utf8')) as Campsite[];
 		if (previous) {
 			//perform delta check between output & results
-			let delta = results.filter((o1) => !previous.some((o2) => o1.entity_id === o2.entity_id));
+			const delta = results.filter((o1) => !previous.some((o2) => o1.entity_id === o2.entity_id));
 			if (delta.length > 0) {
 				delta.forEach((item) => {
 					const path = 'https://staging.felt.dev/api/v1/entities';
@@ -84,7 +84,7 @@ export const task: Task = {
 							Accept: 'application/json',
 						},
 						body: JSON.stringify(params),
-					});
+					}).catch((r) => console.log(r));
 				});
 				console.log(`generated ${delta.length} new notifications`);
 			} else {
