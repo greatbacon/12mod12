@@ -1,9 +1,8 @@
 <script lang="ts">
 	import {quotes} from '$lib/data/quotes';
 	import Header from '$lib/ui/Header.svelte';
-	import {fade,blur,fly,slide,scale} from 'svelte/transition';
-	import {quintOut} from 'svelte/easing';
-	import {randomInt} from '@feltcoop/felt/util/random.js';
+	import {fade} from 'svelte/transition';
+	import {randomInt} from '@feltjs/util/random.js';
 
 	let index = randomInt(0, quotes.length);
 

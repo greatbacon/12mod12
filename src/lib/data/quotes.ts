@@ -1,4 +1,6 @@
-export const quotes = [
+import type {Quote} from '$lib/website';
+
+export const quotes: Quote[] = [
 	{
 		author: 'David Wheeler',
 		text: 'All problems in computer science can be solved by another level of abstraction, except of course for the problem of too many abstractions',
@@ -261,18 +263,18 @@ export const quotes = [
 	},
 	{
 		author: 'Larry Wall',
-		text: 'Easy things should be easy, and hard things should be possible.'
+		text: 'Easy things should be easy, and hard things should be possible.',
 	},
 	{
 		author: 'Kongming',
-		text: 'The wise win before they fight, while the ignorant fight to win.'
+		text: 'The wise win before they fight, while the ignorant fight to win.',
 	},
 	{
 		author: 'Marcus Aurelius',
-		text: 'Look back over the past, with its changing empires that rose and fell, and you can foresee the future too.'
+		text: 'Look back over the past, with its changing empires that rose and fell, and you can foresee the future too.',
 	},
 	{
 		author: 'James Madison',
-		text: 'The means of defence against foreign danger have been always the instruments of tyranny at home.'
-	}
+		text: 'The means of defence against foreign danger have been always the instruments of tyranny at home.',
+	},
 ];

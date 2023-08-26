@@ -1,5 +1,7 @@
 <script lang="ts">
-	import '$lib/ui/style.css';	
+	import '$lib/ui/style.css';
+
+	export const prerender = true;
 </script>
 
 <svelte:head>

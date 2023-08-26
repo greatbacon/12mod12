@@ -1,8 +1,10 @@
-export const about = [
-  {
-    title: 'Hamilton J Reed',
-    subtitle: 'Maintaining this website since...',
-    content: `<p>Hamilton Reed is a graduate of Colorado State University.  While there he pursued a Bachelor of Science in Computer Science and a minor in English.   Originally driven to the field of computer science by his love of video games and desire to develop them, in his time at university he has discovered a greater joy in the creative problem solving that comes with software engineering.
+import type {Blurb} from '$lib/website';
+
+export const about: Blurb[] = [
+	{
+		title: 'Hamilton J Reed',
+		subtitle: 'Maintaining this website since...',
+		content: `<p>Hamilton Reed is a graduate of Colorado State University.  While there he pursued a Bachelor of Science in Computer Science and a minor in English.   Originally driven to the field of computer science by his love of video games and desire to develop them, in his time at university he has discovered a greater joy in the creative problem solving that comes with software engineering.
 					
     <br><br>Seeking, analyzing, and designing systems and methods for observing and modifying the world is one of the driving goals of Hamilton's career.  Particularly fascinating to him are spaceflight and exploration systems as well as those systems that model and control the economics of the world.
             
@@ -14,9 +16,8 @@ export const about = [
     <br><br><a class="links" href="https://github.com/greatbacon">GITHUB</a>
     <br><br><a class="links" href="https://hachyderm.io/@greatbacon">MASTODON</a>    
     <br><br><a class="links" href="https://twitter.com/greatbaconbits">TWITTER</a>        
-    `,  
-    start: '2012-08-19',
-    wrapped: null,
-    thumbnail: '/portfolio/img/headshot.jpg'
-  },
-]
+    `,
+		start: '2012-08-19',
+		thumbnail: '/portfolio/img/headshot.jpg',
+	},
+];

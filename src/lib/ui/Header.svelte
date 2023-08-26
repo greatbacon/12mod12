@@ -2,33 +2,32 @@
 	import {onMount, onDestroy} from 'svelte';
 	export let title = '12M0D12';
 
-	const header = title + "_";
+	const header = title + '_';
 	const index = title.length;
 
+	let interval: string | number | NodeJS.Timeout | undefined;
 
-	let interval;
-
-	onMount(() => {				
+	onMount(() => {
 		interval = setInterval(() => {
-			let elem = document.getElementById('text_header');								
-			let root = elem.innerHTML.substring(0,index);						
-			if (elem.innerHTML == root + '_') {
-				elem.innerHTML = root + '&nbsp;';				
+			const elem = document.getElementById('text_header');
+			const root = elem!.innerHTML.substring(0, index);
+			if (elem!.innerHTML === root + '_') {
+				elem!.innerHTML = root + '&nbsp;';
 			} else {
-				elem.innerHTML = root + '_';				
+				elem!.innerHTML = root + '_';
 			}
-		}, 500);		
+		}, 500);
 	});
 
 	onDestroy(() => clearInterval(interval));
-
-	
 </script>
 
 <header class="content">
 	<h1 id="text_header">{header}</h1>
 	<div class="links">
-		<a href="/">HOME</a>|<a href="/blog">BLOG</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a></div>
+		<a href="/">HOME</a>|<a href="/blog">BLOG</a>|<a href="/code">CODE</a>|<a href="/audio">AUDIO</a
+		>|<a href="/writing">WRITING</a>|<a href="/about">ABOUT</a>
+	</div>
 </header>
 
 <style>
@@ -48,7 +47,7 @@
 		width: 100%;
 		display: flex;
 		flex-direction: row;
-		flex-wrap:wrap;
+		flex-wrap: wrap;
 		justify-content: center;
 	}
 </style>

@@ -1,6 +1,6 @@
 import mm from 'music-metadata';
 import fetch from 'node-fetch';
-import {Logger} from '@feltcoop/felt/util/log.js';
+import {Logger} from '@feltjs/util/log.js';
 
 const log = new Logger('[podcast]');
 
@@ -10,9 +10,9 @@ export interface CachedFeedData {
 export const DEFAULT_CACHED_FEED_DATA: CachedFeedData = {episodes: []};
 
 export interface Manifest {
-	url: string,
-	published: string,
-	description: string,
+	url: string;
+	published: string;
+	description: string;
 }
 
 export interface PodcastEpisode {
@@ -101,7 +101,7 @@ export const loadEpisodes = async (manifests: Manifest[]): Promise<PodcastEpisod
 		manifests.map(async (manifest) => {
 			log.info('fetching podcast', manifest.url);
 			const file = await fetch(manifest.url, {method: 'GET'});
-			
+
 			const length = Number(file.headers.get('content-length'));
 			const type = file.headers.get('content-type')!;
 			const pubDate = manifest.published;
