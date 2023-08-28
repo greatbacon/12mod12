@@ -1,8 +1,8 @@
 <script lang="ts">
-	import {writing} from '$lib/data/blog';
+	import {blogs} from '$lib/data/blog';
 	import Header from '$lib/ui/Header.svelte';
 
-	const blurb = writing[1];
+	const blurb = blogs[0];
 </script>
 
 <Header title="BLOG" />

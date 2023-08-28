@@ -1,12 +1,12 @@
 <script lang="ts">
-	import {writing} from '$lib/data/blog';
-	import Header from '$lib/ui/Header.svelte';
+	import {blogs} from '$lib/data/blog';
+	import Header from '$lib/ui/Header.svelte';	
 </script>
 
 <Header title="BLOG" />
 
 <main class="content">
-	{#each writing as blurb}
+	{#each blogs.reverse() as blurb}
 		<div class="brief">
 			{#if blurb.thumbnail}
 				<div class="brief_thumbnail">

@@ -10,7 +10,7 @@
 		rel="alternate"
 		type="application/rss+xml"
 		title="RSS feed for Hollywood Zoo Crew podcast"
-		href="/hollywoodzoocrew/rss.xml"
+		href="rss.xml"
 	/>
 </svelte:head>
 
@@ -29,7 +29,7 @@
 			bolts of inspiritaion.
 		</p>
 		<p>
-			To subscribe use <a href="/audio/hollywoodzoocrew/rss.xml">this RSS link</a>.
+			To subscribe use <a href="rss.xml">this RSS link</a>.
 		</p>
 	</section>
 </div>
