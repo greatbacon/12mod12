@@ -1,12 +1,14 @@
 <script lang="ts">
 	import {blogs} from '$lib/data/blog';
 	import Header from '$lib/ui/Header.svelte';
+
+	const items = [...blogs].reverse()	
 </script>
 
 <Header title="BLOG" />
 
 <main class="content">
-	{#each blogs.reverse() as blurb}
+	{#each items as blurb}
 		<div class="brief">
 			{#if blurb.thumbnail}
 				<div class="brief_thumbnail">
