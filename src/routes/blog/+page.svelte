@@ -1,6 +1,6 @@
 <script lang="ts">
 	import {blogs} from '$lib/data/blog';
-	import Header from '$lib/ui/Header.svelte';	
+	import Header from '$lib/ui/Header.svelte';
 </script>
 
 <Header title="BLOG" />

@@ -1,6 +1,6 @@
 import type {Blurb} from '$lib/website';
 
-export const blogs: Blurb[] = [	
+export const blogs: Blurb[] = [
 	{
 		title: 'The Coming Discourse Vacuum',
 		subtitle: 'Food for thought in a post-Twitter world',
@@ -18,11 +18,11 @@ export const blogs: Blurb[] = [
 		link: '/blog/1',
 	},
 	{
-		title:
-			'Could We Peer Produce Movies?',
-			subtitle: 'A thought experiment on modern modes of production',
-			content: 'In the world of the modern internet, there exists a concept called peer production. You’re probably already very familiar with works produced under this concept. Wikipedia primarily bases its content off of peer production. Likewise almost all free and open source software...',
-			start: '2023-08-26',
-			link: '/blog/2',			
-	}
+		title: 'Could We Peer Produce Movies?',
+		subtitle: 'A thought experiment on modern modes of production',
+		content:
+			'In the world of the modern internet, there exists a concept called peer production. You’re probably already very familiar with works produced under this concept. Wikipedia primarily bases its content off of peer production. Likewise almost all free and open source software...',
+		start: '2023-08-26',
+		link: '/blog/2',
+	},
 ];

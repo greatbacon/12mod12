@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '$lib/ui/style.css';	
+	import '$lib/ui/style.css';
 </script>
 
 <svelte:head>
