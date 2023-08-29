@@ -2,7 +2,7 @@
 	import {blogs} from '$lib/data/blog';
 	import Header from '$lib/ui/Header.svelte';
 
-	const items = [...blogs].reverse()	
+	const items = [...blogs].reverse();
 </script>
 
 <Header title="BLOG" />
