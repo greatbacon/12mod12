@@ -16,8 +16,8 @@
 
 <main class="content">
 	<div class="nav">
-		<button type="button" on:click={() => (index = (index + 1) % quotes.length)}>&lt;==</button>
-		<button type="button" on:click={() => (index = (index - 1) % quotes.length)}>==&gt;</button>
+		<button type="button" on:click={() => (index = (index - 1) % quotes.length)}>&lt;==</button>
+		<button type="button" on:click={() => (index = (index + 1) % quotes.length)}>==&gt;</button>
 	</div>
 	{#key quote}
 		<div class="quote_block" in:fade|local={{duration: 400}}>
