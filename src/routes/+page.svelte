@@ -5,43 +5,62 @@
 	import {randomInt} from '@feltjs/util/random.js';
 
 	let index = randomInt(0, quotes.length);
+	$: quote = quotes[index];
 
-	// setInterval(() => {
-	// 	index = (index + 1) % quotes.length;
-	// }, 5000);
+	setInterval(() => {
+		index = (index + 1) % quotes.length;
+	}, 5000);
 </script>
 
 <Header />
 
 <main class="content">
-	{#each quotes as quote, i}
-		{#if index === i}
-			<div
-				class="quote_block"
-				in:fade|local={{delay: 400, duration: 200}}
-				out:fade|local={{duration: 100}}
-			>
-				<div class="display_quote_text">{quote.text}</div>
-				<div class="display_quote_author">--{quote.author}</div>
-				<div>
-					<button type="button" on:click={() => index--}>&lt;==</button>
-					<button type="button" on:click={() => index++}>==&gt;</button>
-				</div>
+	<div class="nav">
+		<button type="button" on:click={() => (index = (index + 1) % quotes.length)}>&lt;==</button>
+		<button type="button" on:click={() => (index = (index - 1) % quotes.length)}>==&gt;</button>
+	</div>
+	{#key quote}
+		<div class="quote_block" in:fade|local={{duration: 400}}>
+			<div class="display_quote_text">
+				{quote.text}
 			</div>
-		{/if}
-	{/each}
+			<div class="display_quote_author">--{quote.author}</div>
+		</div>
+	{/key}
 </main>
 
 <style>
+	.content {
+		display: flex;
+		flex-direction: column;
+	}
 	.quote_block {
+		height: 50%;
 	}
 	.display_quote_text {
 		text-align: center;
 		font-size: 2.5em;
 	}
-
 	.display_quote_author {
 		text-align: center;
 		font-size: 1.5em;
+	}
+	.nav {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	button {
+		width: 200px;
+		height: 50px;
+		font-size: 2em;
+		text-align: center;
+		background: none;
+		border: none;
+		color: #00ff00;
+		font-family: 'fixsys';
+	}
+	button:hover {
+		color: #017501;
 	}
 </style>
