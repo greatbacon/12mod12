@@ -11,5 +11,5 @@ export interface Blurb {
 export interface Quote {
 	author: string;
 	text: string;
-	link?: string;
+	link: string;
 }

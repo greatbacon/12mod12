@@ -24,7 +24,7 @@
 			<div class="display_quote_text">
 				{quote.text}
 			</div>
-			<div class="display_quote_author">--{quote.author}</div>
+			<div class="display_quote_author"><a href={quote.link} target="_blank">{quote.author}</a></div>
 		</div>
 	{/key}
 </main>
