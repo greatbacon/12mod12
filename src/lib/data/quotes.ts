@@ -346,4 +346,9 @@ export const quotes: Quote[] = [
 		text: 'The means of defence against foreign danger have been always the instruments of tyranny at home.',
 		link: 'https://en.wikipedia.org/wiki/James_Madison',
 	},
+	{
+		author: "Goodhart's Law",
+		text: "When a measure becomes a target, it ceases to be a good measure",
+		link: 'https://en.wikipedia.org/wiki/Goodhart%27s_law'
+	}
 ];
