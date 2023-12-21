@@ -1,4 +1,6 @@
 import type {Gen} from '@feltjs/gro';
+import {exists} from '@grogarden/gro/fs.js';
+import {readFile} from 'node:fs/promises';
 
 import type {Manifest} from '$lib/podcast';
 import {
@@ -9,7 +11,6 @@ import {
 	type CachedFeedData,
 	type PodcastChannel,
 } from '$lib/podcast';
-import type {Filesystem} from '@feltjs/gro/dist/fs/filesystem';
 
 /*
 This gen file outputs two files, `src/lib/feed.json` and `src/static/hzc/rss.xml`.
@@ -421,8 +422,8 @@ const CACHED_FEED_PATH_ROOT_PATH = 'src/lib/data/' + CACHED_FEED_DATA_FILE_PATH;
 const RSS_FEED_FILE_RELATIVE_PATH = `../../static/audio/hollywoodzoocrew/rss.xml`;
 
 // Outputs a file with event types that can be imported from anywhere with no runtime cost.
-export const gen: Gen = async ({fs, log}) => {
-	const existingCachedFeedData = await loadCachedFeedData(fs, CACHED_FEED_PATH_ROOT_PATH);
+export const gen: Gen = async ({log}) => {
+	const existingCachedFeedData = await loadCachedFeedData(CACHED_FEED_PATH_ROOT_PATH);
 	manifest.forEach((f) => (f.url = toRemoteUrl(f.url)));
 	const uncachedEpisodeManifests = manifest.filter(
 		(u) => !existingCachedFeedData.episodes.find((e) => e.fileLocation === u.url),
@@ -443,13 +444,12 @@ export const gen: Gen = async ({fs, log}) => {
 	];
 };
 
-const loadCachedFeedData = async (
-	fs: Filesystem,
+const loadCachedFeedData = async (	
 	cacheFilePath: string,
 ): Promise<CachedFeedData> => {
-	if (!(await fs.exists(cacheFilePath))) return DEFAULT_CACHED_FEED_DATA;
+	if (!(await exists(cacheFilePath))) return DEFAULT_CACHED_FEED_DATA;
 	try {
-		return JSON.parse(await fs.readFile(cacheFilePath, 'utf8'));
+		return JSON.parse(await readFile(cacheFilePath, 'utf8'));
 	} catch (err) {
 		return DEFAULT_CACHED_FEED_DATA;
 	}
