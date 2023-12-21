@@ -1,6 +1,6 @@
 import type {Task} from '@grogarden/gro';
 import {spawn} from '@grogarden/util/process.js';
-import {SVELTEKIT_DIST_DIRNAME} from '@grogarden/gro/paths.js';
+import {SVELTEKIT_BUILD_DIRNAME} from '@grogarden/gro/paths.js';
 
 const STATIC_REPO = '../greatbacon.github.io';
 
@@ -13,7 +13,7 @@ export const task: Task = {
 		const timestamp = Date.now();
 
 		await spawn('git', [`-C`, `${STATIC_REPO}`, `pull`]);
-		await spawn('cp', [`-r`, `${SVELTEKIT_DIST_DIRNAME}/svelte-kit/.`, `${STATIC_REPO}`]);
+		await spawn('cp', [`-r`, `${SVELTEKIT_BUILD_DIRNAME}/.`, `${STATIC_REPO}`]);
 		await spawn('git', [`-C`, `${STATIC_REPO}`, `add`, `.`]);
 		await spawn('git', [`-C`, `${STATIC_REPO}`, `commit`, `-m`, ` "new deploy ${timestamp}"`]);
 		await spawn('git', [`-C`, `${STATIC_REPO}`, `push`]);
