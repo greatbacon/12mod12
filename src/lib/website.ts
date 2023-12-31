@@ -13,3 +13,8 @@ export interface Quote {
 	text: string;
 	link: string;
 }
+
+export interface JewelryBlurb extends Blurb {
+	type:     "ring"|"watch"|"necklace"|"cufflink"|"lapelPin"|"tiePin"|"boloTie"|"buckle"|"knife",
+	prevOwner: string;
+}
