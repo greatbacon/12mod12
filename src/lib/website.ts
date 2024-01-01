@@ -15,6 +15,7 @@ export interface Quote {
 }
 
 export interface JewelryBlurb extends Blurb {
-	type:     "ring"|"watch"|"necklace"|"cufflink"|"lapelPin"|"tiePin"|"boloTie"|"buckle"|"knife",
-	prevOwner: string;
+	type:     "ring"|"watch"|"necklace"|"cufflink"|"pin"|"boloTie"|"buckle"|"knife",
+	origOwner: string;
+	currentOwner: string;
 }
