@@ -8,7 +8,7 @@ export const jewelry: JewelryBlurb[] = [
         currentOwner: "Hamilton Reed",
         type: "ring",
         start: "1950s",
-        thumbnail: "image",
+        thumbnail: "/jewelry-img/ring1.jpg",
     },
     {
         title: "Woman's gold wedding band & ring",        
@@ -17,7 +17,7 @@ export const jewelry: JewelryBlurb[] = [
         currentOwner: "Hamilton Reed",
         type: "ring",
         start: "1950s",
-        thumbnail: "image",
+        thumbnail: "/jewelry-img/ring2.jpg",
     },
     {
         type: "cufflink",
@@ -26,7 +26,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid-20th Century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/cufflink1.jpg",
     },
     {
         type: "cufflink",
@@ -35,7 +35,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid-20th Century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/cufflink2.jpg",
     },
     {
         type: "cufflink",
@@ -44,7 +44,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid-20th Century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/cufflink3.jpg",
     },
     {
         type: "cufflink",
@@ -53,7 +53,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid-20th Century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/cufflink4.jpg",
     },
     {
         type: "necklace",
@@ -62,7 +62,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jean Reed",
         currentOwner: "Hamilton Reed",
         start: "2010s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/necklace1.jpg",
     },
     {
         type: "necklace",
@@ -71,7 +71,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "1970s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/necklace2.jpg",
     },
     {
         type: "buckle",
@@ -80,7 +80,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "1970s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/buckle1.jpg",
     },
     {
         type: "boloTie",
@@ -89,7 +89,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "1970s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/boloTie1.jpg",
     },
     {
         type: "boloTie",
@@ -98,7 +98,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "1970s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/boloTie2.jpg",
     },
     {
         type: "boloTie",
@@ -107,7 +107,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "1970s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/boloTie3.jpg",
     },
     {
         type: "ring",
@@ -116,7 +116,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jean Reed",
         currentOwner: "Hamilton Reed",
         start: "???",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/ring3.jpg",
     },
     {
         type: "necklace",
@@ -125,7 +125,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jean Reed",
         currentOwner: "Hamilton Reed",
         start: "???",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/necklace3.jpg",
     },
     {
         type: "ring",
@@ -134,7 +134,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jean Reed",
         currentOwner: "Hamilton Reed",
         start: "???",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/ring4.jpg",
     },
     {
         type: "watch",
@@ -143,7 +143,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Hamilton Reed",
         currentOwner: "Hamilton Reed",
         start: "2014",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/watch1.jpg",
     },
     {
         type: "watch",
@@ -152,7 +152,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Hamilton Reed",
         currentOwner: "Hamilton Reed",
         start: "2010",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/watch2.jpg",
     },
     {
         type: "watch",
@@ -161,7 +161,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Albert Wright",
         currentOwner: "Hamilton Reed",
         start: "1990s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/watch3.jpg",
     },
     {
         type: "watch",
@@ -170,7 +170,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "2000",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/watch4.jpg",
     },    
     {
         type: "knife",
@@ -179,7 +179,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "2000",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/knife1.jpg",
     },
     {
         type: "knife",
@@ -188,7 +188,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Hamilton Reed",
         currentOwner: "Hamilton Reed",
         start: "2022",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/knife2.jpg",
     },
     {
         type: "ring",
@@ -197,7 +197,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Albert Wright",
         currentOwner: "Hamilton Reed",
         start: "1950s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/ring5.jpg",
     },
     {
         type: "ring",
@@ -206,7 +206,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "1950s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/ring6.jpg",
     },
     {
         type: "pin",
@@ -215,7 +215,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale",
         currentOwner: "Hamilton Reed",
         start: "1950s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin1.jpg",
     },
     {
         type: "pin",
@@ -224,7 +224,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "late 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin2.jpg",
     },
     {
         type: "pin",
@@ -233,7 +233,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "late 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin3.jpg",
     },
     {
         type: "pin",
@@ -242,7 +242,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "late 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin4.jpg",
     },
     {
         type: "pin",
@@ -251,7 +251,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "late 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin5.jpg",
     },
     {
         type: "pin",
@@ -260,7 +260,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Hamilton Reed",
         currentOwner: "Hamilton Reed",
         start: "2018",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin6.jpg",
     },
     {
         type: "pin",
@@ -269,7 +269,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jean Reed",
         currentOwner: "Hamilton Reed",
         start: "late 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin7.jpg",
     },
     {
         type: "pin",
@@ -278,7 +278,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jean Reed",
         currentOwner: "Hamilton Reed",
         start: "late 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin8.jpg",
     },
     {
         type: "pin",
@@ -287,7 +287,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jean Reed",
         currentOwner: "Hamilton Reed",
         start: "late 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin9.jpg",
     },
     {
         type: "watch",
@@ -296,7 +296,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "1970s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/watch5.jpg",
     },  
     {
         type: "pin",
@@ -305,7 +305,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin10.jpg",
     },
     {
         type: "pin",
@@ -314,7 +314,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin11.jpg",
     },
     {
         type: "pin",
@@ -323,7 +323,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin12.jpg",
     },
     {
         type: "pin",
@@ -332,7 +332,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin13.jpg",
     },
     {
         type: "pin",
@@ -341,7 +341,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin14.jpg",
     },
     {
         type: "cufflink",
@@ -350,7 +350,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/cufflink5.jpg",
     },
     {
         type: "cufflink",
@@ -359,7 +359,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/cufflink6.jpg",
     },
     {
         type: "pin",
@@ -368,7 +368,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin15.jpg",
     },
     {
         type: "ring",
@@ -377,7 +377,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/ring7.jpg",
     },
     {
         type: "ring",
@@ -386,7 +386,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jason Glendale Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/ring8.jpg",
     },
     {
         type: "cufflink",
@@ -395,7 +395,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/cufflink7.jpg",
     },
     {
         type: "pin",
@@ -404,7 +404,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "1960s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin16.jpg",
     },
     {
         type: "pin",
@@ -413,7 +413,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "1960s",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin17.jpg",
     },  
     {
         type: "pin",
@@ -422,7 +422,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin18.jpg",
     },  
     {
         type: "pin",
@@ -431,17 +431,8 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin19.jpg",
     },  
-    {
-        type: "pin",
-        title: "Jerry Garcia guitar",        
-        content: "A guitar shaped pin with a J. Garcia signature on it, from a Jerry Garcia print tie",
-        origOwner: "Jay Reed",
-        currentOwner: "Hamilton Reed",
-        start: "2010s",
-        thumbnail: "",
-    },
     {
         type: "pin",
         title: "Sterling dancer bar",        
@@ -449,7 +440,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin20.jpg",
     },  
     {
         type: "pin",
@@ -458,7 +449,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin21.jpg",
     },  
     {
         type: "pin",
@@ -467,7 +458,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin22.jpg",
     },  
     {
         type: "pin",
@@ -476,7 +467,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/pin23.jpg",
     },
     {
         type: "ring",
@@ -485,7 +476,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/ring9.jpg",
     },  
     {
         type: "ring",
@@ -494,7 +485,7 @@ export const jewelry: JewelryBlurb[] = [
         origOwner: "Jay Reed",
         currentOwner: "Hamilton Reed",
         start: "mid 20th century",
-        thumbnail: "",
+        thumbnail: "/jewelry-img/ring10.jpg",
     },        
     // {
     //     type: "",
