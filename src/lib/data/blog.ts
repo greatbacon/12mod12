@@ -21,8 +21,16 @@ export const blogs: Blurb[] = [
 		title: 'Could We Peer Produce Movies?',
 		subtitle: 'A thought experiment on modern modes of production',
 		content:
-			'In the world of the modern internet, there exists a concept called peer production. You’re probably already very familiar with works produced under this concept. Wikipedia primarily bases its content off of peer production. Likewise almost all free and open source software...',
+			'In the world of the modern internet, there exists a concept called peer production. You\'re probably already very familiar with works produced under this concept. Wikipedia primarily bases its content off of peer production. Likewise almost all free and open source software...',
 		start: '2023-08-26',
 		link: '/blog/2',
 	},
+	{
+		title: 'Review of Synthesized Social Signals',
+		subtitle: 'A novel concept for social platforms charting a path in the open source ecosystem.',
+		content:
+			'Recently I read through a paper in the field of Computer-Human Interaction (CHI) describing a novel concept for social software platforms called <a href="https://dl.acm.org/doi/10.1145/3313831.3376383">"Synthesized Social Signals: Computationally-Derived Social Signals from Account Histories"</a> by <a href="https://imjane.net/">Jane Im</a>, <a href="https://www.sonalitandon.net/">Sonali Tandon</a>, <a href="http://www.eshwarchandrasekharan.com/">Eshwar Chandrasekharan</a>, <a href="https://www.taylordenby.com/">Taylor Denby</a>, & <a href="http://eegilbert.org/">Eric Gilbert</a>. I found the concept useful to think about and something I wish was considered more as a standard design practice across social platforms...',
+		start: '2024-01-03',
+		link: '/blog/3',
+	}
 ];
