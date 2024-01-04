@@ -85,6 +85,7 @@
 		color: #ffffff;
 		padding-left: 1%;
 		display: flex;
+		display:inline-block;
 	}
 
 	div.brief_link a {
