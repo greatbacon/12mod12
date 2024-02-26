@@ -200,7 +200,7 @@ export const monies = [
 		issued: 1959,
 		value: 0.1,
 		description:
-			"This coin predates the new coinage minting of the 1960s & 70s. I'm unsure who is represented on the obverse side of the coin.",
+			"This coin predates the new coinage minting of the 1960s & 70s. The reverse side displays the Mexican coat of arms under legend. The obverse depicts President Benito Juárez.",
 		link: 'https://en.wikipedia.org/wiki/Mexican_peso#Peso,_20th_century',
 	},
 	{

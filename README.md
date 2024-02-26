@@ -48,9 +48,7 @@ gro build
 to the `deploy` branch, e.g. for GitHub Pages:
 
 ```bash
-npm run deploy
-# or
-gro deploy
+gro push
 ```
 
 ## credits 🐢<sub>🐢</sub><sub><sub>🐢</sub></sub>

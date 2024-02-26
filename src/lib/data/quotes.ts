@@ -350,5 +350,10 @@ export const quotes: Quote[] = [
 		author: "Goodhart's Law",
 		text: "When a measure becomes a target, it ceases to be a good measure",
 		link: 'https://en.wikipedia.org/wiki/Goodhart%27s_law'
+	},
+	{
+		author: "Pierre De Beaumarchais",
+		text: "Where love is concerned, too much is never enough.",
+		link: 'https://en.wikipedia.org/wiki/Pierre_Beaumarchais'
 	}
 ];
