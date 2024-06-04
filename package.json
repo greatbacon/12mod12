@@ -14,13 +14,13 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltjs/eslint-config": "^0.3.1",
-    "@feltjs/felt-ui": "^0.65.0",
-    "@grogarden/gro": "^0.107.1",
+    "@getloom/eslint-config": "^0.4.1",
+    "@ryanatkn/fuz": "^0.82.0",
+    "@ryanatkn/gro": "^0.112.0",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.22.4",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
     "eslint": "^8.48.0",
     "eslint-plugin-svelte": "^2.33.0",
     "prettier": "^2.8.8",
@@ -59,6 +59,6 @@
     "@types/node": "^20.5.6",
     "music-metadata": "7.12.3",
     "node-fetch": "3.2.4",
-    "@ryanatkn/belt": "^0.18.1"
+    "@ryanatkn/belt": "^0.20.1"
   }
 }
