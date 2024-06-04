@@ -1,5 +1,5 @@
 import type {Task} from '@grogarden/gro';
-import {spawn} from '@grogarden/util/process.js';
+import {spawn} from '@ryanatkn/belt/process.js';
 import {SVELTEKIT_BUILD_DIRNAME} from '@grogarden/gro/paths.js';
 
 const STATIC_REPO = '../greatbacon.github.io';
