@@ -1,5 +1,5 @@
-import type {Gen} from '@feltjs/gro';
-import {exists} from '@grogarden/gro/fs.js';
+import type {Gen} from '@ryanatkn/gro/gen.js';
+import {exists} from '@ryanatkn/gro/fs.js';
 import {readFile} from 'node:fs/promises';
 
 import type {Manifest} from '$lib/podcast';

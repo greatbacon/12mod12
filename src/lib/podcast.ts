@@ -1,6 +1,6 @@
 import mm from 'music-metadata';
 import fetch from 'node-fetch';
-import {Logger} from '@feltjs/util/log.js';
+import {Logger} from '@ryanatkn/belt/log.js';
 
 const log = new Logger('[podcast]');
 

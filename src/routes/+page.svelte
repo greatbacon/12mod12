@@ -2,9 +2,9 @@
 	import {quotes} from '$lib/data/quotes';
 	import Header from '$lib/ui/Header.svelte';
 	import {fade} from 'svelte/transition';
-	import {randomInt} from '@feltjs/util/random.js';
+	import {random_int} from '@ryanatkn/belt/random.js';
 
-	let index = randomInt(0, quotes.length);
+	let index = random_int(0, quotes.length);
 	$: quote = quotes[index];
 
 	setInterval(() => {
