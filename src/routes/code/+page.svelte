@@ -45,21 +45,19 @@
 
 	div.brief_thumbnail {
 		float: left;
+		margin-right: 1%;		
 	}
 
 	div.brief_title span {
 		font-size: 2em;
-		text-decoration: underline;
-		padding-left: 1%;
+		text-decoration: underline;		
 	}
 
 	div.brief_workcycle span {
-		font-size: 2em;
-		padding-left: 1%;
+		font-size: 2em;		
 	}
 
 	div.brief_link a {
-		font-size: 2em;
-		padding-left: 1%;
+		font-size: 2em;		
 	}
 </style>
