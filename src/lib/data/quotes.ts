@@ -355,5 +355,10 @@ export const quotes: Quote[] = [
 		author: "Pierre De Beaumarchais",
 		text: "Where love is concerned, too much is never enough.",
 		link: 'https://en.wikipedia.org/wiki/Pierre_Beaumarchais'
+	},
+	{
+		author: "Abraham Lincoln",
+		text: "Labor is prior to and independent of capital. Capital is only the fruit of labor, and could never have existed if labor had not first existed. Labor is the superior of capital, and deserves much the higher consideration.",
+		link: "https://millercenter.org/the-presidency/presidential-speeches/december-3-1861-first-annual-message",
 	}
 ];
