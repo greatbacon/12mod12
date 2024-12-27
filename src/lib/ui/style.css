@@ -1,0 +1,51 @@
+body {
+	background-color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+@font-face {
+	font-family: 'fixsys';
+	src: url('/FXSX300.ttf');
+}
+
+div#topBar {
+	padding: 0 0px;
+}
+
+div#header {
+	text-align: center;
+	margin-left: 0px;
+}
+
+a#txt_header {
+	color: #00ff00;
+	font-size: 300%;
+	font-family: 'fixsys';
+	text-decoration: none;
+}
+
+a#navigate {
+	color: #00ff00;
+	font-size: 200%;
+	font-family: 'fixsys';
+	text-decoration: none;
+}
+
+.content {
+	color: #00ff00;
+	font-family: 'fixsys';
+}
+
+a:link {
+	color: #42ff42;
+}
+a:visited {
+	color: #017501;
+}
+a:hover {
+	color: #00ff00;
+}
+a:active {
+	color: #7ecf7e;
+}
