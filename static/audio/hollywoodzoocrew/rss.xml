@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+<atom:link href="https://www.12mod12.com/audio/hollywoodzoocrew/rss.xml" rel="self" type="application/rss+xml"/>
+<channel>
+	<title>Hollywood Zoo Crew</title>
+	<itunes:title>Hollywood Zoo Crew</itunes:title>
+	<link>https://www.12mod12.com/audio/hollywoodzoocrew</link>
+	<language>en-us</language>
+	<copyright>&#169; 2022 Hollywood Zoo Crew</copyright>
+	<itunes:author>Hollywood Zoo Crew</itunes:author>
+	<description>A comedy improv podcast, here to provide all the 100% true latest news, haps, interviews, and reviews of what goes on in Hollywood, outside of it.</description>
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Hollywood Zoo Crew</itunes:name>
+		<itunes:email>hollywoodzoocrew@gmail.com</itunes:email>
+	</itunes:owner>
+	<itunes:image href="HZC_smol.jpg"/>
+	<itunes:category text="Comedy"></itunes:category>
+	<itunes:explicit>yes</itunes:explicit>
+
+	<item>
+		<itunes:episode>2</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Banana Grammar</title>		
+		<itunes:title>Banana Grammar</itunes:title>
+		<description>
+			<![CDATA[
+			
+	Audacity ate a track from our first recording session, so this is the first episode of Hollywood Outsider we can actually release! On this week's episode we discuss the upcoming oscars, subs or dubs?, our favorite scene from the film Banana Grammar, and second puberty.
+	
+	This weeks episode sponsored by Freddy's Flying Fingers and Sploosh Buddies.
+	
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hollywoodzoocrew/002_BananaGrammar.mp3" 
+			length="83357030" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Banana Grammar</guid>
+		<pubDate>Wed, 22 Feb 2017 07:00:00 GMT</pubDate>
+		<itunes:duration>3155.774693877551</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+</channel>
+</rss>
