@@ -385,6 +385,7 @@ export const manifest: Manifest[] = [
 
 export const channel: PodcastChannel = {
 	title: 'Hollywood Zoo Crew',
+	slug: 'hollywoodzoocrew',
 	url: 'https://www.12mod12.com/audio/hollywoodzoocrew',
 	author: 'Hollywood Zoo Crew',
 	email: 'hollywoodzoocrew@gmail.com',

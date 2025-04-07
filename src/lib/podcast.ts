@@ -2,6 +2,7 @@ import mm from 'music-metadata';
 import fetch from 'node-fetch';
 import {readFile} from 'node:fs/promises';
 import {manifest, channel} from '$lib/data/audio/hzc-manifest.js';
+import { writeFileSync } from 'node:fs';
 
 export interface CachedFeedData {
 	episodes: PodcastEpisode[];
@@ -31,6 +32,7 @@ export interface PodcastEpisode {
 
 export interface PodcastChannel {
 	title: string;
+	slug: string;
 	url: string;
 	author: string;
 	email: string;
@@ -97,7 +99,8 @@ ${episodes
 
 export const loadEpisodes = async (manifests: Manifest[]): Promise<PodcastEpisode[]> => {
 	const episodes = await Promise.all(
-		manifests.map(async (manifest) => {			
+		manifests.map(async (manifest) => {		
+			console.log(`the manifest url is ${manifest.url} right?`);
 			const file = await fetch(manifest.url, {method: 'GET'});
 
 			const length = Number(file.headers.get('content-length'));
@@ -153,28 +156,30 @@ const toSlug = (number: number, title: string): string =>
 		.join('-')}`;
 
 const BUCKET = '../../static/audio';
-const toRemoteUrl = (show: string, filename: string): string => `${BUCKET}/${show}/${filename}`;
+const HOST = 'https://magi.12mod12.com/podcasts'
+const toRemoteUrl = (show: string, filename: string): string => `${HOST}/${show}/${filename}`;
 
 // Outputs a file with event types that can be imported from anywhere with no runtime cost.
-export const generateFeed = async (channel: PodcastChannel, manifest: Manifest[], CACHE_PATH: string, ) => {
-	console.log("generating feed");
+export const generateFeed = async (channel: PodcastChannel, manifest: Manifest[], CACHE_PATH: string, ) => {	
 	//const existingCachedFeedData = await loadCachedFeedData(CACHE_PATH);
-	manifest.forEach((f) => (f.url = toRemoteUrl(channel.title, f.url)));
+	manifest.forEach((f) => (f.url = toRemoteUrl(channel.slug, f.url)));
+	
+	const uncachedEpisodeManifests = manifest;
 	// const uncachedEpisodeManifests = manifest.filter(
 	// 	(u) => !existingCachedFeedData.episodes.find((e) => e.fileLocation === u.url),
 	// );
 	// if (!uncachedEpisodeManifests.length) {		
 	// 	return [];
 	// }
-
-	//const uncachedEpisodes = await loadEpisodes(uncachedEpisodeManifests);
+	
+	const uncachedEpisodes = await loadEpisodes(uncachedEpisodeManifests);
+	const episodes = uncachedEpisodes;
 	//const episodes = mergeEpisodes(existingCachedFeedData.episodes, uncachedEpisodes);
 
-	//const finalCachedFeedData: CachedFeedData = {episodes};
-	const episodes = await loadEpisodes(manifest);
+	//const finalCachedFeedData: CachedFeedData = {episodes};	
 	const xml = toPodcastXml(channel, episodes);
-	
-	//TODO write the rss file
+		
+	writeFileSync(`./static/audio/${channel.slug}/rss.xml`,xml)
 	//TODO write the cache file
 };
 
@@ -188,5 +193,3 @@ export const generateFeed = async (channel: PodcastChannel, manifest: Manifest[]
 // 		return DEFAULT_CACHED_FEED_DATA;
 // 	}
 // };
-
-generateFeed(channel,manifest,BUCKET);
