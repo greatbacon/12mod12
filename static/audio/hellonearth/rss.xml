@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+<atom:link href="https://www.12mod12.com/audio/hellonearth/rss.xml" rel="self" type="application/rss+xml"/>
+<channel>
+	<title>Hell On Earth</title>
+	<itunes:title>Hell On Earth</itunes:title>
+	<link>https://www.12mod12.com/audio/hellonearth</link>
+	<language>en-us</language>
+	<copyright>&#169; 2022 Matt Christman and Chris Wade</copyright>
+	<itunes:author>Matt Christman and Chris Wade</itunes:author>
+	<description>Hell on Earth will tell the story of the Thirty Years War, the cataclysmic outbreak of violence in central Europe that lasted from 1618–1648. It’s the story of the long crisis of the 17th century, the birth of Protestantism and the collapse of Catholic Christendom, and ultimately, the gleaming T-800 Terminator skeleton of Capitalism emerging from the rotting corpse of Feudalism. It’s a story of lurid violence from a bygone age, of hot death on the battlefield, and cool intrigue in the palaces of Kings and Emperors. But it’s also the story of climate change, financial collapse, moral panics, speculative bubbles, pandemic, crisis in institutional legitimacy, of conspiracy theories driving policy, and an information revolution that changes the way everyday people relate to their political leaders. Sound familiar? This is the birth of modernity.</description>
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Matt Christman and Chris Wade</itunes:name>
+		<itunes:email>info@chapotraphouse.com</itunes:email>
+	</itunes:owner>
+	<itunes:image href="albumart.jpg"/>
+	<itunes:category text="History"></itunes:category>
+	<itunes:explicit>yes</itunes:explicit>
+
+	<item>
+		<itunes:episode>10</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 10: A NEW GOD</title>		
+		<itunes:title>Hell on Earth - Episode 10: A NEW GOD</itunes:title>
+		<description>
+			<![CDATA[
+			Commonwealth, Restoration, Glorious Revolution: we complete England’s cycle of political instability and, with a little help from our old friends the Dutch, birth a new order into the world.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/010_A_NEW_GOD.mp3" 
+			length="89608881" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 10: A NEW GOD</guid>
+		<pubDate>Wed, 15 Mar 2023 06:00:00 GMT</pubDate>
+		<itunes:duration>5590.125714285714</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>9</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 9: REBELLION</title>		
+		<itunes:title>Hell on Earth - Episode 9: REBELLION</itunes:title>
+		<description>
+			<![CDATA[
+			While the Thirty Years War rages on, in England, a similar set of crises leads to Civil War.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/009_REBELLION.mp3" 
+			length="83099584" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 9: REBELLION</guid>
+		<pubDate>Wed, 08 Mar 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>5183.34693877551</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>8</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 8: THE STATE</title>		
+		<itunes:title>Hell on Earth - Episode 8: THE STATE</itunes:title>
+		<description>
+			<![CDATA[
+			The Peace of Westphalia concludes the war and introduces a new phase of political and economic conflict to Europe.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com 
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/008_THE_STATE.mp3" 
+			length="64856083" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 8: THE STATE</guid>
+		<pubDate>Wed, 01 Mar 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>4043.2326530612245</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>7</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 7: HELL</title>		
+		<itunes:title>Hell on Earth - Episode 7: HELL</itunes:title>
+		<description>
+			<![CDATA[
+			The apocalyptic effects of years of war on the population transform central Europe into Hell on Earth.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/007_HELL.mp3" 
+			length="79611714" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 7: HELL</guid>
+		<pubDate>Wed, 22 Feb 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>4965.355102040817</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>6</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 6: THE NORTH</title>		
+		<itunes:title>Hell on Earth - Episode 6: THE NORTH</itunes:title>
+		<description>
+			<![CDATA[
+			King Gustavus Adolphus brings the seemingly unstoppable power of Sweden crashing through central Germany.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/006_THE_NORTH.mp3" 
+			length="87094020" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 6: THE NORTH</guid>
+		<pubDate>Wed, 15 Feb 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>5432.973061224489</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>5</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 5: INTERVENTION</title>		
+		<itunes:title>Hell on Earth - Episode 5: INTERVENTION</itunes:title>
+		<description>
+			<![CDATA[
+			The Danes stage a daring intervention against the Habsburgs. Enter: Wallenstein & Richelieu.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/005_INTERVENTION.mp3" 
+			length="69183214" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 5: INTERVENTION</guid>
+		<pubDate>Wed, 08 Feb 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>4313.6522448979595</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>4</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 4: WINDOWS</title>		
+		<itunes:title>Hell on Earth - Episode 4: WINDOWS</itunes:title>
+		<description>
+			<![CDATA[
+			Dynastic ambitions, messianic delusions and One High Fall topple the Holy Roman Empire into war.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/004_WINDOWS.mp3" 
+			length="70301254" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 4: WINDOWS</guid>
+		<pubDate>Wed, 01 Feb 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>4383.529795918367</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>3</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 3: KINGS</title>		
+		<itunes:title>Hell on Earth - Episode 3: KINGS</itunes:title>
+		<description>
+			<![CDATA[
+			The royal dynasties of Europe strain to confront reformation, centralization and modernization in their own distinct ways as we bring them up to the eve of the Thirty Years War.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/003_KINGS.mp3" 
+			length="61140715" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 3: KINGS</guid>
+		<pubDate>Wed, 25 Jan 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>3811.0563265306123</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>2</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Death</title>		
+		<itunes:title>Death</itunes:title>
+		<description>
+			<![CDATA[
+			The Black Death, the rise of the Habsburgs, and the dream of the Universal Monarch.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/002_DEATH.mp3" 
+			length="72855276" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Death</guid>
+		<pubDate>Wed, 18 Jan 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>4543.137959183673</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>1</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Hell on Earth - Episode 1: GOD</title>		
+		<itunes:title>Hell on Earth - Episode 1: GOD</itunes:title>
+		<description>
+			<![CDATA[
+			A man, a hammer, a nail, a door, history. Martin Luther sets off the protestant reformation and lays the groundwork for a century of violence in Europe.
+
+This first episode of Hell on Earth: The Thirty Years War and the Violent Birth Capitalism is available for free. Subsequent episodes will be released exclusively for Chapo Trap House subscribers on Patreon at patreon.com/chapotraphouse.
+
+Interactive atlas, bibliography and credits for the series can be found at: hellonearth.chapotraphouse.com
+    
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/hellonearth/001_GOD.mp3" 
+			length="84196899" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Hell on Earth - Episode 1: GOD</guid>
+		<pubDate>Wed, 11 Jan 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>5261.766530612245</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+</channel>
+</rss>

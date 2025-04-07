@@ -1,4 +1,7 @@
-import { manifest as hzcManifest, channel as hzcChannel } from '$lib/data/audio/hzc-manifest';
+import { channel as hzcChannel, manifest as hzcManifest } from '$lib/data/audio/hzc-manifest';
+import { channel as hoeChannel, manifest as hoeManifest } from '$lib/data/audio/hoe-manifest';
+import { channel as desfreeChannel, manifest as desfreeManifest } from '$lib/data/audio/des-free-manifest'
+import { channel as toolmakersChannel, manifest as toolmakersManifest } from '$lib/data/audio/toolmaker-manifest'
 import { generateFeed, type Manifest, type PodcastChannel } from '$lib/podcast';
 import type {Task} from '@ryanatkn/gro';
 
@@ -14,6 +17,21 @@ const MANIFEST: Podcasts[] = [
 		channel: hzcChannel,
 		manifest: hzcManifest,
         bucket: ""
+	},
+	{
+		channel: hoeChannel,
+		manifest: hoeManifest,
+		bucket: "" 
+	},
+	{
+		channel: desfreeChannel,
+		manifest: desfreeManifest,
+		bucket: "" 
+	},
+	{
+		channel: toolmakersChannel,
+		manifest: toolmakersManifest,
+		bucket: "" 
 	},
 ];
 

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+<atom:link href="https://www.12mod12.com/audio/designingfreedom/rss.xml" rel="self" type="application/rss+xml"/>
+<channel>
+	<title>Designing Freedom - The CBC Lectures</title>
+	<itunes:title>Designing Freedom - The CBC Lectures</itunes:title>
+	<link>https://www.12mod12.com/audio/designingfreedom</link>
+	<language>en-us</language>
+	<copyright>&#169; 2022 Stafford Beer</copyright>
+	<itunes:author>Stafford Beer</itunes:author>
+	<description>Distinguished cyberneticist Stafford Beer states the case for a new science of systems theory and cybernetics. His essays examine such issues as "The Real Threat to All We Hold Most Dear," "The Discarded Tools of Modern Man," "A Liberty Machine in Prototype," "Science in the Service of Man," "The Future That Can Be Demanded Now," "The Free Man in a Cybernetic World." Designing Freedom ponders the possibilities of liberty in a cybernetic world.</description>
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Stafford Beer</itunes:name>
+		<itunes:email>info@cbc.ca</itunes:email>
+	</itunes:owner>
+	<itunes:image href="Designing Freedom cover.jpg"/>
+	<itunes:category text="Science"></itunes:category>
+	<itunes:explicit>no</itunes:explicit>
+
+	<item>
+		<itunes:episode>6</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>The Free Man in the Cybernetic World</title>		
+		<itunes:title>The Free Man in the Cybernetic World</itunes:title>
+		<description>
+			<![CDATA[
+			The 1973 CBC Massey Lectures by distinguished cyberneticist Stafford Beer.
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/06 The Free Man in the Cybernetic World.mp3" 
+			length="33658889" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">The Free Man in the Cybernetic World</guid>
+		<pubDate>Mon, 01 Jan 1973 07:00:00 GMT</pubDate>
+		<itunes:duration>2095.3861224489797</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>5</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>The Future That Can Be Demanded Now</title>		
+		<itunes:title>The Future That Can Be Demanded Now</itunes:title>
+		<description>
+			<![CDATA[
+			The 1973 CBC Massey Lectures by distinguished cyberneticist Stafford Beer.
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/05 The Future That Can Be Demanded Now.mp3" 
+			length="31137758" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">The Future That Can Be Demanded Now</guid>
+		<pubDate>Mon, 01 Jan 1973 07:00:00 GMT</pubDate>
+		<itunes:duration>1937.8416326530612</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>4</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Science in the Service of Man</title>		
+		<itunes:title>Science in the Service of Man</itunes:title>
+		<description>
+			<![CDATA[
+			The 1973 CBC Massey Lectures by distinguished cyberneticist Stafford Beer.
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/04 Science in the Service of Man.mp3" 
+			length="28754549" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Science in the Service of Man</guid>
+		<pubDate>Mon, 01 Jan 1973 07:00:00 GMT</pubDate>
+		<itunes:duration>1788.8914285714286</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>3</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>A Liberty Machine in Prototype</title>		
+		<itunes:title>A Liberty Machine in Prototype</itunes:title>
+		<description>
+			<![CDATA[
+			The 1973 CBC Massey Lectures by distinguished cyberneticist Stafford Beer.
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/03 A Liberty Machine in Prototype.mp3" 
+			length="31633035" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">A Liberty Machine in Prototype</guid>
+		<pubDate>Mon, 01 Jan 1973 07:00:00 GMT</pubDate>
+		<itunes:duration>1968.7967346938776</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>2</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>The Disregarded Tools of Modern Man</title>		
+		<itunes:title>The Disregarded Tools of Modern Man</itunes:title>
+		<description>
+			<![CDATA[
+			The 1973 CBC Massey Lectures by distinguished cyberneticist Stafford Beer.
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/02 The Disregarded Tools of Modern Man.mp3" 
+			length="29302082" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">The Disregarded Tools of Modern Man</guid>
+		<pubDate>Mon, 01 Jan 1973 07:00:00 GMT</pubDate>
+		<itunes:duration>1823.111836734694</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>1</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>The Real Threat to "All We Hold Most Dear"</title>		
+		<itunes:title>The Real Threat to "All We Hold Most Dear"</itunes:title>
+		<description>
+			<![CDATA[
+			The 1973 CBC Massey Lectures by distinguished cyberneticist Stafford Beer.
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/01 The Real Threat to _All We Hold Most Dear_.mp3" 
+			length="28504623" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">The Real Threat to "All We Hold Most Dear"</guid>
+		<pubDate>Mon, 01 Jan 1973 07:00:00 GMT</pubDate>
+		<itunes:duration>1773.2702040816328</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+</channel>
+</rss>

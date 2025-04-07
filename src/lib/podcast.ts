@@ -100,7 +100,7 @@ ${episodes
 export const loadEpisodes = async (manifests: Manifest[]): Promise<PodcastEpisode[]> => {
 	const episodes = await Promise.all(
 		manifests.map(async (manifest) => {		
-			console.log(`the manifest url is ${manifest.url} right?`);
+			console.log(`loading url ${manifest.url} now!`);			
 			const file = await fetch(manifest.url, {method: 'GET'});
 
 			const length = Number(file.headers.get('content-length'));

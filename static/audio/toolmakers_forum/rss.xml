@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+<atom:link href="https://www.12mod12.com/audio/toolmakers_forum/rss.xml" rel="self" type="application/rss+xml"/>
+<channel>
+	<title>Toolmakers Forum</title>
+	<itunes:title>Toolmakers Forum</itunes:title>
+	<link>https://www.12mod12.com/audio/toolmakers_forum</link>
+	<language>en-us</language>
+	<copyright>&#169; 2022 Hamilton Reed</copyright>
+	<itunes:author>Hamilton Reed</itunes:author>
+	<description>Toolmakers Forum is a podcast about tools and the people who make them.</description>
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Hamilton Reed</itunes:name>
+		<itunes:email>info@getloom.org</itunes:email>
+	</itunes:owner>
+	<itunes:image href="tmf_logo_thumbnail.jpg"/>
+	<itunes:category text="Science"></itunes:category>
+	<itunes:explicit>no</itunes:explicit>
+
+	<item>
+		<itunes:episode>16</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Walled Gardens vs The Open Ecosystem</title>		
+		<itunes:title>Walled Gardens vs The Open Ecosystem</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we discuss the pros and cons of designing closed vs open ecosystems and why we ultimately went with the open ecosystem for Felt. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/016-WalledGardensvsTheOpenEcosystem.mp3" 
+			length="41494437" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Walled Gardens vs The Open Ecosystem</guid>
+		<pubDate>Thu, 20 Apr 2023 06:00:00 GMT</pubDate>
+		<itunes:duration>1949.8057142857142</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>15</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Communicating Indoors and Outdoors On The Internet</title>		
+		<itunes:title>Communicating Indoors and Outdoors On The Internet</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we explore a new(ish) metaphor we’ve been using at Felt: communication spaces through the lens of “indoors” and “outdoors”. What it means, how it helps us design, and how it helps us relate to the tools we use for communication. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS 
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/015-CommunicatingIndoorsAndOutdoorsOnTheInternet.mp3" 
+			length="36743725" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Communicating Indoors and Outdoors On The Internet</guid>
+		<pubDate>Thu, 23 Feb 2023 07:00:00 GMT</pubDate>
+		<itunes:duration>1911.0661224489795</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>14</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>The Algorithm</title>		
+		<itunes:title>The Algorithm</itunes:title>
+		<description>
+			<![CDATA[
+			This week·s discussion centers on the newly ever present capital ·T· capital ·A· The Algorithm. What is it, where did it come from, what do you mean there·s more than one, and why do they all keep showing me things I don·t want to look at? You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS 
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/014-TheAlgorithm.mp3" 
+			length="44573305" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">The Algorithm</guid>
+		<pubDate>Thu, 27 Oct 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>2100.845714285714</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>13</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Collapsing Context</title>		
+		<itunes:title>Collapsing Context</itunes:title>
+		<description>
+			<![CDATA[
+			This week we discuss the concept of “context collapse”. What it is, where you might encounter it, why some people might like it and some ways in which it might be detrimental to the current media landscape. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS 
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/013-CollapsingContext.mp3" 
+			length="41974262" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Collapsing Context</guid>
+		<pubDate>Mon, 26 Sep 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>1878.8310204081633</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>12</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Piggybacking Infrastructure</title>		
+		<itunes:title>Piggybacking Infrastructure</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we discuss how the somewhat counterintuitive idea of allowing people to take advantage of underlying architecture for low/no cost allows for unprecedented explosions in creativity and capacity for both technical and non-technical users alike. We also explain what an Iframe is, if you’ve ever wondered about that. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS 
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/012-PiggybackingInfrastructure.mp3" 
+			length="40084411" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Piggybacking Infrastructure</guid>
+		<pubDate>Fri, 02 Sep 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>1841.2669387755102</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>11</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>A/Sync Communication</title>		
+		<itunes:title>A/Sync Communication</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we discuss synchronous and asynchronous forms of communication, design elements that can push us in either direction, and social/workflow preferences that seal the deal. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS 
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/011-ASyncCommunication.mp3" 
+			length="44204829" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">A/Sync Communication</guid>
+		<pubDate>Tue, 26 Jul 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>2054.008163265306</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>10</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Big Ideas In Our Community Software Part 2</title>		
+		<itunes:title>Big Ideas In Our Community Software Part 2</itunes:title>
+		<description>
+			<![CDATA[
+			Part 2 of a 2 of our extended conversation where we talk about some of the big technical ideas underlying our development of Felt. Look for it in blog form soon! The big ideas in this episode are ·Moddable/programmable system·, · Entities can live anywhere·, ·JS client with ideal thickness·, and ·Designed for small scale· You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS 
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/010-BigIdeasInOurCommunitySoftwarePart2.mp3" 
+			length="35818306" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Big Ideas In Our Community Software Part 2</guid>
+		<pubDate>Mon, 27 Jun 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>1652.8457142857144</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>9</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Big Ideas In Our Community Software (Part 1)</title>		
+		<itunes:title>Big Ideas In Our Community Software (Part 1)</itunes:title>
+		<description>
+			<![CDATA[
+			Part 1 of a 2 of our extended conversation where we talk about some of the big technical ideas underlying our development of Felt. Look for it in blog form soon! The big ideas in this episode are ·A social app and CMS in one·, ·Many personas; one account·, ·3 tier UX·, and ·Swappable/composable/multiple views· You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS 
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/009-BigIdeasInOurCommunitySoftwarePart1.mp3" 
+			length="49788138" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Big Ideas In Our Community Software (Part 1)</guid>
+		<pubDate>Mon, 20 Jun 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>2163.7224489795917</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>8</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Feudalism By Default</title>		
+		<itunes:title>Feudalism By Default</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we talk about the historical norms of how control and power are distributed (or rather, hoarded) in computing systems. Plus some potential ways to change that for the future. Nathan Schneider's article: https://www.colorado.edu/lab/medlab/2021/01/08/implicit-feudalism-why-online-communities-still-havent-caught-my-mothers-garden-club You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/008-FeudalismByDefault.mp3" 
+			length="44636505" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Feudalism By Default</guid>
+		<pubDate>Thu, 26 May 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>2190.5502040816327</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>7</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Own Your View</title>		
+		<itunes:title>Own Your View</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we discuss the tensions of open and closed APIs, the capacities for users to own and control their experience with their data, and what it could look like to use a system with a flexible client that allows for easy distribution of designs. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/007-OwnYourView.mp3" 
+			length="60892563" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Own Your View</guid>
+		<pubDate>Wed, 04 May 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>2841.2342857142858</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>6</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Balancing The Scale</title>		
+		<itunes:title>Balancing The Scale</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we discuss the all dominating Silicon Valley ethos of scale, the dimensions along which things can scale, and alternatives to scale at any cost. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/006-BalancingTheScale.mp3" 
+			length="49775953" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Balancing The Scale</guid>
+		<pubDate>Wed, 04 May 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>2194.390204081633</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>5</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Don't Read the Comments</title>		
+		<itunes:title>Don't Read the Comments</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we discuss the paradox of open text boxes in making communication more challenging, the downsides to beaming raw text from strangers into our brain every day, and some alternative forms for more safely transferring information. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/005-DontReadTheComments.mp3" 
+			length="43316499" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Don't Read the Comments</guid>
+		<pubDate>Wed, 04 May 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>1968.4048979591837</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>4</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Don't Copy That Floppy</title>		
+		<itunes:title>Don't Copy That Floppy</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we discuss the historical precedent of data relying on physical atoms for carrying, replication, and distribution and what ways we are still bound by this thinking in the age of information as easily moved electrons. You can sign up for our newsletter here: https://tinyletter.com/feltcoop The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/004-DontCopyThatFloppy.mp3" 
+			length="42201604" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Don't Copy That Floppy</guid>
+		<pubDate>Wed, 04 May 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>1930.684081632653</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>3</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Quiet Majorities</title>		
+		<itunes:title>Quiet Majorities</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we talk about lurking, the nature of engagement, how the vast majority of communities on the internet are mostly just an observing audience, and how to give them tools for providing feedback. You can sign up for our newsletter here: https://tinyletter.com/feltcoop. The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/003-QuietMajorities.mp3" 
+			length="49218729" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Quiet Majorities</guid>
+		<pubDate>Wed, 04 May 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>2284.564897959184</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>2</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>What's in a Name</title>		
+		<itunes:title>What's in a Name</itunes:title>
+		<description>
+			<![CDATA[
+			In this episode we discuss the semantic difference between what an internet "board" is versus an internet "forum" as well as why different forms of chat is primarily what the internet is. You can sign up for our newsletter here: https://tinyletter.com/feltcoop. The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/002-WhatsInAName.mp3" 
+			length="36139409" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">What's in a Name</guid>
+		<pubDate>Wed, 04 May 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>1914.9061224489797</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+	<item>
+		<itunes:episode>1</itunes:episode>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:season>1</itunes:season>
+		<title>Welcome To The Forum</title>		
+		<itunes:title>Welcome To The Forum</itunes:title>
+		<description>
+			<![CDATA[
+			In this inaugural episode, we introduce the podcast and talk about why we started it and the project it supports, Felt. You can sign up for our newsletter here: https://tinyletter.com/feltcoop. The song is Banjo EDM by DØVYDAS
+			]]>
+		</description>
+		<enclosure 
+			url="https://magi.12mod12.com/podcasts/toolmakers_forum/001-WelcomeToTheForum.mp3" 
+			length="48555056" 
+			type="audio/mpeg"/>
+		<guid isPermaLink="false">Welcome To The Forum</guid>
+		<pubDate>Wed, 04 May 2022 06:00:00 GMT</pubDate>
+		<itunes:duration>2171.637551020408</itunes:duration>		
+		<itunes:explicit>no</itunes:explicit>
+	</item>
+
+</channel>
+</rss>
