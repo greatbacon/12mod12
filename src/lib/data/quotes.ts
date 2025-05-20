@@ -360,5 +360,10 @@ export const quotes: Quote[] = [
 		author: "Abraham Lincoln",
 		text: "Labor is prior to and independent of capital. Capital is only the fruit of labor, and could never have existed if labor had not first existed. Labor is the superior of capital, and deserves much the higher consideration.",
 		link: "https://millercenter.org/the-presidency/presidential-speeches/december-3-1861-first-annual-message",
+	}, 
+	{
+		author: "Wallace Stegner",
+		text: "He enjoyed the wrestle with rock and clay and the triumph... but he hated the tedious and humiliating waiting on rich men, and all the talk.",
+		link: 'https://en.wikipedia.org/wiki/Angle_of_Repose'
 	}
 ];
