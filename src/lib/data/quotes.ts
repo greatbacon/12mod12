@@ -365,5 +365,15 @@ export const quotes: Quote[] = [
 		author: "Wallace Stegner",
 		text: "He enjoyed the wrestle with rock and clay and the triumph... but he hated the tedious and humiliating waiting on rich men, and all the talk.",
 		link: 'https://en.wikipedia.org/wiki/Angle_of_Repose'
-	}
+	},
+	{
+		author: "Stafford Beer",
+		text: "The purpose of a system is what it does.",
+		link: "https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does"
+	},
+	{
+		author: "Stafford Beer",
+		text: "Every time we hear that a proposal will destroy society as we know it, we should have the courage to say: ‘Thank God; at last.’",
+		link: "https://en.wikipedia.org/wiki/Stafford_Beer"
+	},
 ];
