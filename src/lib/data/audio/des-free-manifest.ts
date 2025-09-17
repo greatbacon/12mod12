@@ -42,7 +42,7 @@ export const channel: PodcastChannel = {
 	url: 'https://www.12mod12.com/audio/designingfreedom',
 	author: 'Stafford Beer',
 	email: 'info@cbc.ca',
-	albumImageURL: `Designing Freedom cover.jpg`,
+	albumImageURL: `album.jpg`,
 	description:
 		'Distinguished cyberneticist Stafford Beer states the case for a new science of systems theory and cybernetics. His essays examine such issues as "The Real Threat to All We Hold Most Dear," "The Discarded Tools of Modern Man," "A Liberty Machine in Prototype," "Science in the Service of Man," "The Future That Can Be Demanded Now," "The Free Man in a Cybernetic World." Designing Freedom ponders the possibilities of liberty in a cybernetic world.',
 	keywords: ['science'],
