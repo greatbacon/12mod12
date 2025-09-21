@@ -1,19 +1,25 @@
 <script lang="ts">	
-	import Header from '$lib/ui/Header.svelte';
+	import Header from '$lib/ui/Header.svelte';    
 
     const CLEAR = "00"
+    let buzzSound: HTMLAudioElement;
 
     let slot = [CLEAR,CLEAR,CLEAR]
     let locked: string[] = [];
     let index = 0;
 	
     function clearBox() {
+        buzzSound.pause();
+        buzzSound.currentTime = 0;
         slot = [CLEAR,CLEAR,CLEAR]
         index = 0;
         locked = [];
     }
 
     function buzz(buzzer: string, key: string){
+        if (index == 0){
+            buzzSound.play();
+        }
         slot[index] = buzzer;
         locked.push(key);
         index++;
@@ -71,6 +77,12 @@
 </script>
 
 <Header />
+
+<audio
+    src='/quiz/697400__jamhamsterrofl__right-buzzer.mp3'
+    preload="auto"
+    bind:this={buzzSound}    
+/>
 
 <div class="brief">
     <section>
