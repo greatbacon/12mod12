@@ -376,4 +376,19 @@ export const quotes: Quote[] = [
 		text: "Every time we hear that a proposal will destroy society as we know it, we should have the courage to say: ‘Thank God; at last.’",
 		link: "https://en.wikipedia.org/wiki/Stafford_Beer"
 	},
+	{
+		author: "Werner von Siemens",
+		text: "Ideas along have little value. An innovation's importance lies in its practical implementation.",
+		link: "https://en.wikipedia.org/wiki/Werner_von_Siemens"
+	},
+		{
+		author: "Werner von Siemens",
+		text: "In-house production always provides a solid foundation.",
+		link: "https://en.wikipedia.org/wiki/Werner_von_Siemens"
+	},
+		{
+		author: "Werner von Siemens",
+		text: "I will not sell the future for instant profit!",
+		link: "https://en.wikipedia.org/wiki/Werner_von_Siemens"
+	},
 ];
