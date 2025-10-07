@@ -4,7 +4,7 @@
 <channel>
 	<title>Designing Freedom - The CBC Lectures</title>
 	<itunes:title>Designing Freedom - The CBC Lectures</itunes:title>
-	<link>https://www.12mod12.com/audio/designingfreedom</link>
+	<link>https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/</link>
 	<language>en-us</language>
 	<copyright>&#169; 2022 Stafford Beer</copyright>
 	<itunes:author>Stafford Beer</itunes:author>
@@ -14,7 +14,7 @@
 		<itunes:name>Stafford Beer</itunes:name>
 		<itunes:email>info@cbc.ca</itunes:email>
 	</itunes:owner>
-	<itunes:image href="https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/album.jpg"/>
+	<itunes:image href="album.jpg"/>
 	<itunes:category text="Science"></itunes:category>
 	<itunes:explicit>no</itunes:explicit>
 
