@@ -4,7 +4,7 @@ export const code: Blurb[] = [
 	{
 		title: 'Loom',
 		content: `Since Felt was developed as an open-source project, 
-		I forked it in early 2024 & have continued the work of building a programmable social platform. This new iteration is called Loom.`,    
+		I forked it in early 2024 & have continued the work of building a programmable social platform. This new iteration is called Loom. It officially entered early-access October 1st, 2025.`,    
 		start: '2024-01-01',		
 		thumbnail: '/portfolio/img/loom_logo.png',
 		link: 'https://getloom.org',

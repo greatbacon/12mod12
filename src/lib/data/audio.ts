@@ -2,6 +2,16 @@ import type {Blurb} from '$lib/website';
 
 export const audio: Blurb[] = [
 	{
+		title: 'Toolmakers Forum',
+		subtitle: 'a podcast about digital tools and the people who make them',
+		content:
+			'Part of the planning and conceptualization of Loom\'s predecessor project. Although defunct, the topics and theory discussed within are still a part of Loom\'s legacy.',
+		link: '/audio/toolmakers_forum',
+		start: '2022-01-01',
+		wrapped: '2023-12-31',
+		thumbnail: '/portfolio/img/tmf_logo_thumbnail.png',
+	},
+	{
 		title: 'Hollywood Zoo Crew',
 		subtitle: 'an improv comedy podcast',
 		content:
