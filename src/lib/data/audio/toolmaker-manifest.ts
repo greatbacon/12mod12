@@ -91,8 +91,8 @@ export const channel: PodcastChannel = {
 	slug: 'toolmakers_forum',
 	url: 'https://www.12mod12.com/audio/toolmakers_forum',
 	author: 'Hamilton Reed',
-	email: 'info@getloom.org',
-	albumImageURL: `tmf_logo_thumbnail.jpg`,
+	email: 'hamilton@getloom.org',
+	albumImageURL: `https://magi.12mod12.com/podcasts/toolmakers_forum/tmf_logo_thumbnail.png`,
 	description:
 		'Toolmakers Forum is a podcast about tools and the people who make them.',
 	keywords: ['science'],

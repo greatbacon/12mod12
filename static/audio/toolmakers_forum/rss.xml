@@ -12,9 +12,9 @@
 	<itunes:type>episodic</itunes:type>
 	<itunes:owner>
 		<itunes:name>Hamilton Reed</itunes:name>
-		<itunes:email>info@getloom.org</itunes:email>
+		<itunes:email>hamilton@getloom.org</itunes:email>
 	</itunes:owner>
-	<itunes:image href="tmf_logo_thumbnail.jpg"/>
+	<itunes:image href="https://magi.12mod12.com/podcasts/toolmakers_forum/tmf_logo_thumbnail.png"/>
 	<itunes:category text="Science"></itunes:category>
 	<itunes:explicit>no</itunes:explicit>
 

@@ -13,76 +13,76 @@ export const manifest: Manifest[] = [
 	`,
 		published: '02/22/2017',
 	},
-	// {
-	// 	url: '003_PlacidViews.mp3',
-	// 	description: `
+	{
+		url: '003_PlacidViews.mp3',
+		description: `
 
-	// After an extended hiatus we are back this week discussing the understated masterpiece Placid Views staring Christopher Walken and Michael Cera. Topics include sepia tone on the Super8, Croak and GOAT, and backdoor pilots to the Marvel universe.
+	After an extended hiatus we are back this week discussing the understated masterpiece Placid Views staring Christopher Walken and Michael Cera. Topics include sepia tone on the Super8, Croak and GOAT, and backdoor pilots to the Marvel universe.
 	
-	// This weeks episode sponsored by Goose Going & Jamtastic Jams.
-	// `,
-	// 	published: '04/05/2017',
-	// },
-	// {
-	// 	url: '004_FridayNightFightClubs.mp3',
-	// 	description: `
+	This weeks episode sponsored by Goose Going & Jamtastic Jams.
+	`,
+		published: '04/05/2017',
+	},
+	{
+		url: '004_FridayNightFightClubs.mp3',
+		description: `
 
-	// This weeks episode brings a double barreled blast of fun. The focus being the soon to be released movie about the racially integrated underground fighting circuit in south Texas, Friday Night Fight Clubs, as well as an interview with the author the film is based upon.
+	This weeks episode brings a double barreled blast of fun. The focus being the soon to be released movie about the racially integrated underground fighting circuit in south Texas, Friday Night Fight Clubs, as well as an interview with the author the film is based upon.
 	
-	// Sponsored by Requiem Duffles and Flattner.
-	// `,
-	// 	published: '04/12/2017',
-	// },
-	// {
-	// 	url: '005_MonkeyBrains.mp3',
-	// 	description: `
+	Sponsored by Requiem Duffles and Flattner.
+	`,
+		published: '04/12/2017',
+	},
+	{
+		url: '005_MonkeyBrains.mp3',
+		description: `
 
-	// On tonight's Hollywood Outsider we discuss the new indie-thriller-comedy (throbidy) Monky Brains staring acclaimed child actor Jordan Matthews. Other topics include snake control, The Christening, and one hosts primal fear.
+	On tonight's Hollywood Outsider we discuss the new indie-thriller-comedy (throbidy) Monky Brains staring acclaimed child actor Jordan Matthews. Other topics include snake control, The Christening, and one hosts primal fear.
 	
-	// Sponsored by Y Knot and Flying Freddy's Fingers.
-	// `,
-	// 	published: '04/20/2017',
-	// },
-	// {
-	// 	url: '006_StageLeft.mp3',
-	// 	description: `
+	Sponsored by Y Knot and Flying Freddy's Fingers.
+	`,
+		published: '04/20/2017',
+	},
+	{
+		url: '006_StageLeft.mp3',
+		description: `
 
-	// This weeks episode of Hollywood Outsider focuses on the Incredibly Accurate biopic of Shakespeare's life; Stage Left. Other topics include an in depth critique of Hamlet, necromancy, and strong opinions on the works of Hans Zimmer.
+	This weeks episode of Hollywood Outsider focuses on the Incredibly Accurate biopic of Shakespeare's life; Stage Left. Other topics include an in depth critique of Hamlet, necromancy, and strong opinions on the works of Hans Zimmer.
 	
-	// Sponsored by reallyrealstamps.com and Lunchables.io
-	// `,
-	// 	published: '04/26/2017',
-	// },
-	// {
-	// 	url: '007_HowtheWestWasOne.mp3',
-	// 	description: `
+	Sponsored by reallyrealstamps.com and Lunchables.io
+	`,
+		published: '04/26/2017',
+	},
+	{
+		url: '007_HowtheWestWasOne.mp3',
+		description: `
 
-	// The lost episode from 5/10. Unfortunately we were not able to recover all of the audio lost, so it is possible some conversations may be hard to follow. If you skip it we won't blame you. Discussion centers on the film How The West Was One, starring Keanu Reeves, Kirsten Schall, and Tommy Lee Jones.
+	The lost episode from 5/10. Unfortunately we were not able to recover all of the audio lost, so it is possible some conversations may be hard to follow. If you skip it we won't blame you. Discussion centers on the film How The West Was One, starring Keanu Reeves, Kirsten Schall, and Tommy Lee Jones.
 	
-	// Sponsored by Daniel McGonagals Bathtub Gin and The Ellistical.
-	// `,
-	// 	published: '05/03/2017',
-	// },
-	// {
-	// 	url: '008_UndertheThornbrushWillow.mp3',
-	// 	description: `
+	Sponsored by Daniel McGonagals Bathtub Gin and The Ellistical.
+	`,
+		published: '05/03/2017',
+	},
+	{
+		url: '008_UndertheThornbrushWillow.mp3',
+		description: `
 
-	// Back with a vengeance! This week we discuss the groundbreaking work of Lars Van Trier, Under The Thornbrush Willow. Points of discussion include the failure of parents in their role, the futility of existence, and the country of sentient jam jars, Jambonia.
+	Back with a vengeance! This week we discuss the groundbreaking work of Lars Van Trier, Under The Thornbrush Willow. Points of discussion include the failure of parents in their role, the futility of existence, and the country of sentient jam jars, Jambonia.
 	
-	// Sponsored by The Straight Razor Depot and Goose Going.
-	// `,
-	// 	published: '05/10/2017',
-	// },
-	// {
-	// 	url: '009_FourAndTwenty.mp3',
-	// 	description: `
+	Sponsored by The Straight Razor Depot and Goose Going.
+	`,
+		published: '05/10/2017',
+	},
+	{
+		url: '009_FourAndTwenty.mp3',
+		description: `
 
-	// This week's show centers on discussion of the film Four And Twenty. Featuring an all avian cast and narration by Jerry Stiller, it follows the journey of migrating blackbirds. Highlights include guest appearances from three of our nations presidents as well as a critique of cinema from the past.
+	This week's show centers on discussion of the film Four And Twenty. Featuring an all avian cast and narration by Jerry Stiller, it follows the journey of migrating blackbirds. Highlights include guest appearances from three of our nations presidents as well as a critique of cinema from the past.
 	
-	// Sponsored by NuJuice and Sploosh Buddies (.com)
-	// `,
-	// 	published: '05/18/2017',
-	// },
+	Sponsored by NuJuice and Sploosh Buddies (.com)
+	`,
+		published: '05/18/2017',
+	},
 	// {
 	// 	url: '010_KingoftheHobos.mp3',
 	// 	description: `

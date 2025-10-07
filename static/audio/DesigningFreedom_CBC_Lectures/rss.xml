@@ -14,7 +14,7 @@
 		<itunes:name>Stafford Beer</itunes:name>
 		<itunes:email>info@cbc.ca</itunes:email>
 	</itunes:owner>
-	<itunes:image href="album.jpg"/>
+	<itunes:image href="https://magi.12mod12.com/podcasts/DesigningFreedom_CBC_Lectures/album.jpg"/>
 	<itunes:category text="Science"></itunes:category>
 	<itunes:explicit>no</itunes:explicit>
 
