@@ -391,4 +391,9 @@ export const quotes: Quote[] = [
 		text: "I will not sell the future for instant profit!",
 		link: "https://en.wikipedia.org/wiki/Werner_von_Siemens"
 	},
+	{
+		author: "Durgan A Nallar",
+		text: "The UN considers play to be among children's rights. Someday, that right shall be extended to adults.",
+		link: "https://mitpressbookstore.mit.edu/book/9798230678717"
+	}
 ];
