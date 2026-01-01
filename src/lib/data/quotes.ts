@@ -378,7 +378,7 @@ export const quotes: Quote[] = [
 	},
 	{
 		author: "Werner von Siemens",
-		text: "Ideas along have little value. An innovation's importance lies in its practical implementation.",
+		text: "Ideas alone have little value. An innovation's importance lies in its practical implementation.",
 		link: "https://en.wikipedia.org/wiki/Werner_von_Siemens"
 	},
 		{
