@@ -395,5 +395,10 @@ export const quotes: Quote[] = [
 		author: "Durgan A Nallar",
 		text: "The UN considers play to be among children's rights. Someday, that right shall be extended to adults.",
 		link: "https://mitpressbookstore.mit.edu/book/9798230678717"
+	},
+	{
+		author: "Motoko Kusanagi from 'Ghost in the Shell (1995)'",
+		text: "It's simple: overspecialize, and you breed in weakness. It's slow death.",
+		link: "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
 	}
 ];
