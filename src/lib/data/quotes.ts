@@ -400,5 +400,10 @@ export const quotes: Quote[] = [
 		author: "Motoko Kusanagi from 'Ghost in the Shell (1995)'",
 		text: "It's simple: overspecialize, and you breed in weakness. It's slow death.",
 		link: "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
+	},
+	{
+		author: "Ralph Waldo Emerson",
+		text: "An institution is the lengthened shadow of one man.",
+		link: "https://en.wikipedia.org/wiki/Self-Reliance"
 	}
 ];
